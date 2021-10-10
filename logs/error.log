@@ -1,0 +1,2330 @@
+2021-09-22 09:24:16 Error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Proprietes` could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 245
+Exception Attributes: array (
+  0 => 'for alias `Proprietes`',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:62
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Association.php:396
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Query.php:506
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Query.php:462
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Query.php:848
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:2517
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:1267
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:201
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:791
+- C:\Ampps\www\section_2\cake_bake\src\Controller\PhotosController.php:24
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /Photos
+
+
+2021-09-22 09:24:21 Error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Proprietes` could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 245
+Exception Attributes: array (
+  0 => 'for alias `Proprietes`',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:62
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Association.php:396
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Query.php:506
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Query.php:462
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Query.php:848
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:2517
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:1267
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:201
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:791
+- C:\Ampps\www\section_2\cake_bake\src\Controller\PhotosController.php:24
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /photos
+
+
+2021-09-22 09:24:44 Error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Proprietes` could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 245
+Exception Attributes: array (
+  0 => 'for alias `Proprietes`',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:62
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Association.php:396
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Query.php:506
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Query.php:462
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Query.php:848
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:2517
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:1267
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:201
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:791
+- C:\Ampps\www\section_2\cake_bake\src\Controller\PhotosController.php:24
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /photos
+
+
+2021-09-22 09:27:49 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 385
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:165
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /roles/add
+Referer URL: http://localhost:8888/section_2/cake_bake/roles/add
+
+
+2021-09-22 09:28:59 Error: [PDOException] SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'price' at row 1 in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:74
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:341
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:2077
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:1969
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:1870
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:1559
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:686
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:1560
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:1871
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:55
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/add
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/add
+
+
+2021-09-22 09:30:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Phoros could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Phoros',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /phoros
+
+
+2021-09-22 10:08:00 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "proprietes" in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 514
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:44
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/view/2
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 11:16:24 Error: [Cake\Http\Exception\MissingControllerException] Controller class Prorpietes could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Prorpietes',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /prorpietes
+
+
+2021-09-22 11:16:29 Error: [Cake\Http\Exception\MissingControllerException] Controller class Prorietes could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Prorietes',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /prorietes
+
+
+2021-09-22 12:32:41 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/2c04da51-8e23-4325-abe3-c390a03f65b8` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/2c04da51-8e23-4325-abe3-c390a03f65b8',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/2c04da51-8e23-4325-abe3-c390a03f65b8
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 12:32:53 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/8178ac8e-d334-4064-9622-5fa7588fa0d0` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/8178ac8e-d334-4064-9622-5fa7588fa0d0',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/8178ac8e-d334-4064-9622-5fa7588fa0d0
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/view/43berlier
+
+
+2021-09-22 12:32:56 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/2fc5b369-b960-4526-9657-be416950610e` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/2fc5b369-b960-4526-9657-be416950610e',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/2fc5b369-b960-4526-9657-be416950610e
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 12:33:18 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/9b1a691d-51ab-4b1c-8249-3908cf5c5974` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/9b1a691d-51ab-4b1c-8249-3908cf5c5974',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/9b1a691d-51ab-4b1c-8249-3908cf5c5974
+Referer URL: http://localhost:8888/section_2/cake_bake/users/login?redirect=%2Fproprietes%2Fadd
+
+
+2021-09-22 12:33:25 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/a0991336-0f9a-424c-ab69-430018cc6dff` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/a0991336-0f9a-424c-ab69-430018cc6dff',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/a0991336-0f9a-424c-ab69-430018cc6dff
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/add
+
+
+2021-09-22 12:33:44 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/c904395b-5eb8-4fee-bddf-f5730ad9bf24` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/c904395b-5eb8-4fee-bddf-f5730ad9bf24',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/c904395b-5eb8-4fee-bddf-f5730ad9bf24
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 12:35:04 Error: [Authorization\Exception\ForbiddenException] Identity is not authorized to perform `edit` on `App\Model\Entity\Propriete`. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Controller\Component\AuthorizationComponent.php on line 83
+Exception Attributes: array (
+  0 => 'edit',
+  1 => 'App\\Model\\Entity\\Propriete',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:101
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/admin-house
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 12:35:04 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php line=970 in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /proprietes/edit/admin-house
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 12:35:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /proprietes/edit/admin-house
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 12:35:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /proprietes/edit/admin-house
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 12:35:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /proprietes/edit/admin-house
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 12:35:05 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/efa821c0-7c75-4cb6-8a8f-0a9d56af5bc9` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/efa821c0-7c75-4cb6-8a8f-0a9d56af5bc9',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/efa821c0-7c75-4cb6-8a8f-0a9d56af5bc9
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/edit/admin-house
+
+
+2021-09-22 12:35:08 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/63a57b4d-93aa-4e62-b915-92d5b04101e6` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/63a57b4d-93aa-4e62-b915-92d5b04101e6',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/63a57b4d-93aa-4e62-b915-92d5b04101e6
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 13:01:00 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/522b71df-49cd-4129-9eb0-ebaa1340411d` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/522b71df-49cd-4129-9eb0-ebaa1340411d',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/522b71df-49cd-4129-9eb0-ebaa1340411d
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 13:25:10 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users/view/1` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users/view/1',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/view/1
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 13:25:11 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/ce75efaf-1ae6-4885-879b-d89b0890c482` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/ce75efaf-1ae6-4885-879b-d89b0890c482',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/ce75efaf-1ae6-4885-879b-d89b0890c482
+Referer URL: http://localhost:8888/section_2/cake_bake/users/view/1
+
+
+2021-09-22 13:25:13 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/18abfa83-a750-4c0f-a40c-7f87b96ebe3e` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/18abfa83-a750-4c0f-a40c-7f87b96ebe3e',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/18abfa83-a750-4c0f-a40c-7f87b96ebe3e
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 13:25:22 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/9e2eeba0-ef1e-490d-bc56-c2efcefa086a` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/9e2eeba0-ef1e-490d-bc56-c2efcefa086a',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/9e2eeba0-ef1e-490d-bc56-c2efcefa086a
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/view/admin-house
+
+
+2021-09-22 13:25:25 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/56d6cfd4-3471-4c39-abbe-537aee82b40e` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/56d6cfd4-3471-4c39-abbe-537aee82b40e',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/56d6cfd4-3471-4c39-abbe-537aee82b40e
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 13:25:27 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/e270f127-f6b5-4f6c-8be3-68def4972648` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/e270f127-f6b5-4f6c-8be3-68def4972648',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/e270f127-f6b5-4f6c-8be3-68def4972648
+Referer URL: http://localhost:8888/section_2/cake_bake/users/login?redirect=%2Fproprietes%2Fadd
+
+
+2021-09-22 13:25:30 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/430b9054-868e-4cc1-801f-c65e05c4da52` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/430b9054-868e-4cc1-801f-c65e05c4da52',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/430b9054-868e-4cc1-801f-c65e05c4da52
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/add
+
+
+2021-09-22 13:39:16 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "proprietes" in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 514
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:99
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/17
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/view/admin-house
+
+
+2021-09-22 13:39:19 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "proprietes" in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 514
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:99
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/17
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/view/admin-house
+
+
+2021-09-22 13:39:32 Error: [Cake\Controller\Exception\MissingActionException] Action ProprietesController::login() could not be found, or is not accessible. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProprietesController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/login
+
+
+2021-09-22 13:39:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class Login could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /login
+
+
+2021-09-22 13:43:20 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/
+
+
+2021-09-22 13:44:00 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "proprietes" in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 514
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:99
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/17
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/view/admin-house
+
+
+2021-09-22 14:03:51 Error: [Cake\Http\Exception\MissingControllerException] Controller class Logout could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /logout
+
+
+2021-09-22 14:53:51 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8888/section_2/cake_bake/users/login?redirect=%2F
+
+
+2021-09-22 14:54:03 Error: [Cake\Http\Exception\MissingControllerException] Controller class Login could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /login
+
+
+2021-09-22 14:58:21 Error: [Authorization\Exception\ForbiddenException] Identity is not authorized to perform `edit` on `App\Model\Entity\Propriete`. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Controller\Component\AuthorizationComponent.php on line 83
+Exception Attributes: array (
+  0 => 'edit',
+  1 => 'App\\Model\\Entity\\Propriete',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:101
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 14:58:22 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php line=970 in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:28 Error: [Authorization\Exception\ForbiddenException] Identity is not authorized to perform `edit` on `App\Model\Entity\Propriete`. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Controller\Component\AuthorizationComponent.php on line 83
+Exception Attributes: array (
+  0 => 'edit',
+  1 => 'App\\Model\\Entity\\Propriete',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:101
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 14:58:29 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php line=970 in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:29 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:38 Error: [Authorization\Exception\ForbiddenException] Identity is not authorized to perform `edit` on `App\Model\Entity\Propriete`. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Controller\Component\AuthorizationComponent.php on line 83
+Exception Attributes: array (
+  0 => 'edit',
+  1 => 'App\\Model\\Entity\\Propriete',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:101
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-22 14:58:39 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php line=970 in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:58:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Debugger.php:970) in [C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /proprietes/edit/6545-rue-de-Lo
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2021-09-22 14:59:55 Error: [Authorization\Exception\ForbiddenException] Identity is not authorized to perform `edit` on `App\Model\Entity\Propriete`. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Controller\Component\AuthorizationComponent.php on line 83
+Exception Attributes: array (
+  0 => 'edit',
+  1 => 'App\\Model\\Entity\\Propriete',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:101
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/ewf
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-09-30 00:53:55 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+
+
+2021-10-10 03:39:59 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8888/section_2/cake_bake/users/add
+
+
+2021-10-10 03:40:25 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8888/section_2/cake_bake/users/add
+
+
+2021-10-10 03:40:54 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "proprietes" in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 514
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:48
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/view/user
+
+
+2021-10-10 04:21:28 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8888/section_2/cake_bake/users/login?redirect=%2F
+
+
+2021-10-10 04:21:33 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8888/section_2/
+
+
+2021-10-10 04:21:38 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8888/section_2/
+
+
+2021-10-10 04:21:44 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8888/section_2/
+
+
+2021-10-10 21:57:37 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8888/section_2/cake_bake/users/login?redirect=%2F
+
+
+2021-10-10 21:58:33 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8888/section_2/
+
+
+2021-10-10 21:58:36 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost:8888/section_2/
+
+
+2021-10-10 21:58:58 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+
+
+2021-10-10 22:00:32 Error: [Authorization\Exception\ForbiddenException] Identity is not authorized to perform `delete` on `App\Model\Entity\Propriete`. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Controller\Component\AuthorizationComponent.php on line 83
+Exception Attributes: array (
+  0 => 'delete',
+  1 => 'App\\Model\\Entity\\Propriete',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:130
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/delete/19
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-10-10 22:00:46 Error: [Authorization\Exception\ForbiddenException] Identity is not authorized to perform `edit` on `App\Model\Entity\Propriete`. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Controller\Component\AuthorizationComponent.php on line 83
+Exception Attributes: array (
+  0 => 'edit',
+  1 => 'App\\Model\\Entity\\Propriete',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:101
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/43-berlier
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-10-10 22:00:55 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users/view/4` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users/view/4',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/view/4
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes
+
+
+2021-10-10 22:01:28 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+
+
+2021-10-10 22:01:33 Error: [Cake\Http\Exception\MissingControllerException] Controller class Login could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /login
+
+
+2021-10-10 22:01:37 Error: [Cake\Http\Exception\MissingControllerException] Controller class Logout could not be found. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /logout
+
+
+2021-10-10 22:09:02 Error: [Cake\Controller\Exception\MissingActionException] Action ProprietesController::users() could not be found, or is not accessible. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProprietesController',
+  'action' => 'users',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/users
+
+
+2021-10-10 22:09:08 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+
+
+2021-10-10 22:09:18 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users/view/4` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users/view/4',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/view/4
+
+
+2021-10-10 22:09:21 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "users" with primary key [NULL] in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php on line 1517
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\UsersController.php:85
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/view
+
+
+2021-10-10 22:09:24 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/
+
+
+2021-10-10 22:09:50 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /
+
+
+2021-10-10 22:10:21 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+
+
+2021-10-10 22:10:29 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8888/section_2/cake_bake/users/add
+
+
+2021-10-10 22:10:56 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8888/section_2/cake_bake/users/add
+
+
+2021-10-10 22:11:22 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8888/section_2/cake_bake/users/add
+
+
