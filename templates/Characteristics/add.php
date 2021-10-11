@@ -17,7 +17,7 @@
             <fieldset>
                 <legend><?= __('Add Characteristic') ?></legend>
                 <?php
-                    echo $this->Form->control('rooms');
+                    echo $this->Form->control('name');
                     echo $this->Form->control('description');
                     echo $this->Form->control('proprietes._ids', ['options' => $proprietes]);
                 ?>

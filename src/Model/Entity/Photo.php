@@ -8,13 +8,7 @@ use Cake\ORM\Entity;
 /**
  * Photo Entity
  *
- * @property int $id
- * @property int $propriete_id
- * @property string $title
- * @property \Cake\I18n\FrozenDate $date
- * @property string $filename
- * @property \Cake\I18n\FrozenTime $created
- * @property \Cake\I18n\FrozenTime $modified
+ * @property int $nulewf
  *
  * @property \App\Model\Entity\Propriete $propriete
  */
@@ -30,12 +24,7 @@ class Photo extends Entity
      * @var array
      */
     protected $_accessible = [
-        'propriete_id' => true,
-        'title' => true,
-        'date' => true,
-        'filename' => true,
-        'created' => true,
-        'modified' => true,
+        'nulewf' => true,
         'propriete' => true,
     ];
 }

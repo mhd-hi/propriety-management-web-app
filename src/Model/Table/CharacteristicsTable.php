@@ -63,9 +63,10 @@ class CharacteristicsTable extends Table
             ->allowEmptyString('id', null, 'create');
 
         $validator
-            ->integer('rooms')
-            ->requirePresence('rooms', 'create')
-            ->notEmptyString('rooms');
+            ->scalar('name')
+            ->maxLength('name', 255)
+            ->requirePresence('name', 'create')
+            ->notEmptyString('name');
 
         $validator
             ->scalar('description')

@@ -26,8 +26,9 @@
                 //    echo $this->Form->control('user_id', ['type' => 'hidden']);
                     echo $this->Form->control('type');
                 //    echo $this->Form->control('slug');
-                    echo $this->Form->control('state');
+                    echo $this->Form->control('sold');
                     echo $this->Form->control('price');
+                    echo $this->Form->control('characteristics._ids', ['options' => $characteristics]);
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

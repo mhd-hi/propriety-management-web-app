@@ -11,12 +11,13 @@
         <table>
             <thead>
                 <tr>
-                    <th><?= $this->Paginator->sort('id') ?></th>
+
                     <th><?= $this->Paginator->sort('address') ?></th>
                     <th><?= $this->Paginator->sort('user_id') ?></th>
                     <th><?= $this->Paginator->sort('type') ?></th>
                     <!--<th><?= $this->Paginator->sort('slug') ?></th>-->
                     <th><?= $this->Paginator->sort('state') ?></th>
+                    <th><?= $this->Paginator->sort('image') ?></th>
                     <th><?= $this->Paginator->sort('price') ?></th>
                     <th><?= $this->Paginator->sort('created') ?></th>
                     <th><?= $this->Paginator->sort('modified') ?></th>
@@ -26,12 +27,12 @@
             <tbody>
                 <?php foreach ($proprietes as $propriete): ?>
                 <tr>
-                    <td><?= $this->Number->format($propriete->id) ?></td>
                     <td><?= h($propriete->address) ?></td>
                     <td><?= $propriete->has('user') ? $this->Html->link($propriete->user->name, ['controller' => 'Users', 'action' => 'view', $propriete->user->id]) : '' ?></td>
                     <td><?= h($propriete->type) ?></td>
                     <!--<td><?= h($propriete->slug) ?></td>-->
-                    <td><?= h($propriete->state) ?></td>
+                    <td><?= h($propriete->sold) ?></td>
+                    <td><?= h($propriete->image) ?></td>
                     <td><?= $this->Number->format($propriete->price) ?></td>
                     <td><?= h($propriete->created) ?></td>
                     <td><?= h($propriete->modified) ?></td>

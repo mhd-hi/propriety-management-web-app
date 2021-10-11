@@ -40,14 +40,13 @@ class ProprietesController extends AppController
 
         $this->Authorization->skipAuthorization();
         /*    $propriete = $this->Proprietes->get($id, [
-            'contain' => ['Users', 'Photos'],
-        ]);
-        */
+            'contain' => ['Users', 'Characteristics'],
+        ]);*/
+        
         $propriete = $this->Proprietes->findBySlug($slug)
             ->contain('Users')
+            ->contain('Characteristics')
             ->firstOrFail();
-
-
 
         $this->set(compact('propriete'));
     }
@@ -75,8 +74,11 @@ class ProprietesController extends AppController
             }
             $this->Flash->error(__('The propriete could not be saved. Please, try again.'));
         }
-        //$users = $this->Proprietes->Users->find('list', ['limit' => 200]);
-        $this->set(compact('propriete'));
+        $users = $this->Proprietes->Users->find('list', ['limit' => 200]);
+        //$this->set(compact('propriete', 'users', 'characteristics'));
+       // $users = $this->Proprietes->Users->find('list', ['limit' => 200]);
+        $characteristics = $this->Proprietes->Characteristics->find('list', ['limit' => 200]);
+        $this->set(compact('propriete', 'characteristics'));
     }
 
     /**
@@ -113,7 +115,8 @@ class ProprietesController extends AppController
             $this->Flash->error(__('The propriete could not be saved. Please, try again.'));
         }
         $users = $this->Proprietes->Users->find('list', ['limit' => 200]);
-        $this->set(compact('propriete', 'users'));
+        $characteristics = $this->Proprietes->Characteristics->find('list', ['limit' => 200]);
+        $this->set(compact('propriete', 'users', 'characteristics'));
     }
 
     /**

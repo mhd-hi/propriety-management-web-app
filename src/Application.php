@@ -126,7 +126,7 @@ class Application extends BaseApplication implements
             // add Authentication after RoutingMiddleware
             ->add(new AuthenticationMiddleware($this))
             ->add(new AuthorizationMiddleware($this));
-
+            
         return $middlewareQueue;
     }
 

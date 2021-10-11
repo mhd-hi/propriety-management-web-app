@@ -12,7 +12,7 @@
             <thead>
                 <tr>
                     <th><?= $this->Paginator->sort('id') ?></th>
-                    <th><?= $this->Paginator->sort('rooms') ?></th>
+                    <th><?= $this->Paginator->sort('name') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>
@@ -20,7 +20,7 @@
                 <?php foreach ($characteristics as $characteristic): ?>
                 <tr>
                     <td><?= $this->Number->format($characteristic->id) ?></td>
-                    <td><?= $this->Number->format($characteristic->rooms) ?></td>
+                    <td><?= h($characteristic->name) ?></td>
                     <td class="actions">
                         <?= $this->Html->link(__('View'), ['action' => 'view', $characteristic->id]) ?>
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $characteristic->id]) ?>

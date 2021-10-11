@@ -16,7 +16,7 @@ use Cake\Event\EventInterface;
  * Proprietes Model
  *
  * @property \App\Model\Table\UsersTable&\Cake\ORM\Association\BelongsTo $Users
- * @property \App\Model\Table\PhotosTable&\Cake\ORM\Association\HasMany $Photos
+ * @property \App\Model\Table\CharacteristicsTable&\Cake\ORM\Association\BelongsToMany $Characteristics
  *
  * @method \App\Model\Entity\Propriete newEmptyEntity()
  * @method \App\Model\Entity\Propriete newEntity(array $data, array $options = [])
@@ -56,9 +56,12 @@ class ProprietesTable extends Table
             'foreignKey' => 'user_id',
             'joinType' => 'INNER',
         ]);
-        $this->hasMany('Photos', [
+        $this->belongsToMany('Characteristics', [
             'foreignKey' => 'propriete_id',
+            'targetForeignKey' => 'characteristic_id',
+            'joinTable' => 'characteristics_proprietes',
         ]);
+
 
        /* $this->belongsToMany('Characteristics', [
             'foreignKey' => 'propriete_id',
@@ -75,10 +78,11 @@ class ProprietesTable extends Table
      */
     public function validationDefault(Validator $validator): Validator
     {
+
         $validator
             ->integer('id')
             ->allowEmptyString('id', null, 'create');
-
+  
         $validator
             ->scalar('address')
             ->maxLength('address', 255)
@@ -97,8 +101,8 @@ class ProprietesTable extends Table
             ->notEmptyString('slug');
 */
         $validator
-            ->boolean('state')
-            ->allowEmptyString('state');
+            ->boolean('sold')
+            ->allowEmptyString('sold');
 
         $validator
             ->integer('price')

@@ -19,12 +19,12 @@
             <h3><?= h($characteristic->id) ?></h3>
             <table>
                 <tr>
-                    <th><?= __('Id') ?></th>
-                    <td><?= $this->Number->format($characteristic->id) ?></td>
+                    <th><?= __('Name') ?></th>
+                    <td><?= h($characteristic->name) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Rooms') ?></th>
-                    <td><?= $this->Number->format($characteristic->rooms) ?></td>
+                    <th><?= __('Id') ?></th>
+                    <td><?= $this->Number->format($characteristic->id) ?></td>
                 </tr>
             </table>
             <div class="text">

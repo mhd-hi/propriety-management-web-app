@@ -18,6 +18,8 @@ class CharacteristicsController extends AppController
      */
     public function index()
     {
+        $this->Authorization->skipAuthorization();
+        
         $characteristics = $this->paginate($this->Characteristics);
 
         $this->set(compact('characteristics'));

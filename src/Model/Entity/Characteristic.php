@@ -9,7 +9,7 @@ use Cake\ORM\Entity;
  * Characteristic Entity
  *
  * @property int $id
- * @property int $rooms
+ * @property string $name
  * @property string $description
  *
  * @property \App\Model\Entity\Propriete[] $proprietes
@@ -26,7 +26,7 @@ class Characteristic extends Entity
      * @var array
      */
     protected $_accessible = [
-        'rooms' => true,
+        'name' => true,
         'description' => true,
         'proprietes' => true,
     ];

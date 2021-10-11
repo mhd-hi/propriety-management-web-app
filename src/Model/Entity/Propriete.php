@@ -13,7 +13,7 @@ use Cake\ORM\Entity;
  * @property int $user_id
  * @property string|null $type
  * @property string $slug
- * @property bool|null $state
+ * @property bool|null $sold
  * @property int|null $price
  * @property \Cake\I18n\FrozenTime|null $created
  * @property \Cake\I18n\FrozenTime|null $modified
@@ -37,11 +37,12 @@ class Propriete extends Entity
     //    'user_id' => true,
         'type' => true,
     //    'slug' => true,
-        'state' => true,
+        'sold' => true,
+        'image' => true,
         'price' => true,
     //    'created' => true,
     //    'modified' => true,
     //    'user' => true,
-        'photos' => true,
+    'characteristics' => true,
     ];
 }

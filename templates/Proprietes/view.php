@@ -39,6 +39,10 @@
                     <td><?= $this->Number->format($propriete->id) ?></td>
                 </tr>-->
                 <tr>
+                    <th><?= __('Image') ?></th>
+                    <td><?= h($propriete->image) ?></td>
+                </tr>
+                <tr>
                     <th><?= __('Price') ?></th>
                     <td><?= $this->Number->format($propriete->price) ?></td>
                 </tr>
@@ -51,38 +55,30 @@
                     <td><?= h($propriete->modified) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('State') ?></th>
-                    <td><?= $propriete->state ? __('Yes') : __('No'); ?></td>
+                    <th><?= __('Sold') ?></th>
+                    <td><?= $propriete->sold ? __('Yes') : __('No'); ?></td>
                 </tr>
             </table>
             <div class="related">
-                <h4><?= __('Related Photos') ?></h4>
-                <?php if (!empty($propriete->photos)) : ?>
+                <h4><?= __('Related Characteristics') ?></h4>
+                <?php if (!empty($propriete->characteristics)) : ?>
                 <div class="table-responsive">
                     <table>
                         <tr>
                             <th><?= __('Id') ?></th>
-                            <th><?= __('Propriete Id') ?></th>
-                            <th><?= __('Title') ?></th>
-                            <th><?= __('Date') ?></th>
-                            <th><?= __('Filename') ?></th>
-                            <th><?= __('Created') ?></th>
-                            <th><?= __('Modified') ?></th>
+                            <th><?= __('Name') ?></th>
+                            <th><?= __('Description') ?></th>
                             <th class="actions"><?= __('Actions') ?></th>
                         </tr>
-                        <?php foreach ($propriete->photos as $photos) : ?>
+                        <?php foreach ($propriete->characteristics as $characteristics) : ?>
                         <tr>
-                            <td><?= h($photos->id) ?></td>
-                            <td><?= h($photos->propriete_id) ?></td>
-                            <td><?= h($photos->title) ?></td>
-                            <td><?= h($photos->date) ?></td>
-                            <td><?= h($photos->filename) ?></td>
-                            <td><?= h($photos->created) ?></td>
-                            <td><?= h($photos->modified) ?></td>
+                            <td><?= h($characteristics->id) ?></td>
+                            <td><?= h($characteristics->name) ?></td>
+                            <td><?= h($characteristics->description) ?></td>
                             <td class="actions">
-                                <?= $this->Html->link(__('View'), ['controller' => 'Photos', 'action' => 'view', $photos->id]) ?>
-                                <?= $this->Html->link(__('Edit'), ['controller' => 'Photos', 'action' => 'edit', $photos->id]) ?>
-                                <?= $this->Form->postLink(__('Delete'), ['controller' => 'Photos', 'action' => 'delete', $photos->id], ['confirm' => __('Are you sure you want to delete # {0}?', $photos->id)]) ?>
+                                <?= $this->Html->link(__('View'), ['controller' => 'Characteristics', 'action' => 'view', $characteristics->id]) ?>
+                                <?= $this->Html->link(__('Edit'), ['controller' => 'Characteristics', 'action' => 'edit', $characteristics->id]) ?>
+                                <?= $this->Form->postLink(__('Delete'), ['controller' => 'Characteristics', 'action' => 'delete', $characteristics->id], ['confirm' => __('Are you sure you want to delete # {0}?', $characteristics->id)]) ?>
                             </td>
                         </tr>
                         <?php endforeach; ?>
