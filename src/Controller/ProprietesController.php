@@ -89,7 +89,7 @@ class ProprietesController extends AppController
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
     public function edit($slug = null)
-    {
+    {   
         /*
         $propriete = $this->Proprietes->get($id, [
             'contain' => [],

@@ -44,7 +44,7 @@
                             <th><?= __('User Id') ?></th>
                             <th><?= __('Type') ?></th>
                             <th><?= __('Slug') ?></th>
-                            <th><?= __('State') ?></th>
+                            <th><?= __('Sold') ?></th>
                             <th><?= __('Price') ?></th>
                             <th><?= __('Created') ?></th>
                             <th><?= __('Modified') ?></th>
@@ -57,7 +57,7 @@
                             <td><?= h($proprietes->user_id) ?></td>
                             <td><?= h($proprietes->type) ?></td>
                             <td><?= h($proprietes->slug) ?></td>
-                            <td><?= h($proprietes->state) ?></td>
+                            <td><?= h($proprietes->sold) ?></td>
                             <td><?= h($proprietes->price) ?></td>
                             <td><?= h($proprietes->created) ?></td>
                             <td><?= h($proprietes->modified) ?></td>

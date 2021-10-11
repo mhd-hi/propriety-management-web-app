@@ -16,7 +16,7 @@
                     <th><?= $this->Paginator->sort('user_id') ?></th>
                     <th><?= $this->Paginator->sort('type') ?></th>
                     <!--<th><?= $this->Paginator->sort('slug') ?></th>-->
-                    <th><?= $this->Paginator->sort('state') ?></th>
+                    <th><?= $this->Paginator->sort('sold') ?></th>
                     <th><?= $this->Paginator->sort('image') ?></th>
                     <th><?= $this->Paginator->sort('price') ?></th>
                     <th><?= $this->Paginator->sort('created') ?></th>

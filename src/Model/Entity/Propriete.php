@@ -19,7 +19,6 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\FrozenTime|null $modified
  *
  * @property \App\Model\Entity\User $user
- * @property \App\Model\Entity\Photo[] $photos
  */
 class Propriete extends Entity
 {

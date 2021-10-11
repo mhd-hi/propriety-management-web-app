@@ -19,6 +19,7 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use Cake\Controller\Controller;
+use Cake\I18n\I18n;
 
 /**
  * Application Controller
@@ -42,6 +43,9 @@ class AppController extends Controller
     public function initialize(): void
     {
         parent::initialize();
+        if ($this->request->getSession()->check('Config.language')) {
+            I18n::setLocale($this->request->getSession()->read('Config.language'));
+        }
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
@@ -64,6 +68,20 @@ class AppController extends Controller
         parent::beforeFilter($event);
         // for all controllers in our application, make index and view
         // actions public, skipping the authentication check
-        $this->Authentication->addUnauthenticatedActions(['index', 'view']);
+        $this->Authentication->addUnauthenticatedActions(['index', 'view', 'changeLang']);
+    }
+
+    function beforeRender(\Cake\Event\EventInterface $event) {
+        // store user data in LoggedUser
+        if ($this->request->getSession()->check('Auth')) {
+            $this->set("LoggedUser", $this->request->getSession()->read('Auth'));
+        }
+    }
+
+    public function changeLang($lang = 'en_US') {
+        $this->Authorization->skipAuthorization();
+        I18n::setLocale($lang);
+        $this->request->getSession()->write('Config.language', $lang);
+        return $this->redirect($this->request->referer());
     }
 }

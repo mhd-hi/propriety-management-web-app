@@ -4772,3 +4772,321 @@ Request URL: /characteristics/view/5
 Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/view/jean
 
 
+2021-10-11 18:24:32 Error: [Authorization\Exception\ForbiddenException] Identity is not authorized to perform `edit` on `App\Model\Entity\Propriete`. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Controller\Component\AuthorizationComponent.php on line 83
+Exception Attributes: array (
+  0 => 'edit',
+  1 => 'App\\Model\\Entity\\Propriete',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\src\Controller\ProprietesController.php:103
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/edit/43berlier
+Referer URL: http://localhost:8888/section_2/cake_bake/
+
+
+2021-10-11 18:33:58 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/users/view/4` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/users/view/4',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/view/4
+Referer URL: http://localhost:8888/section_2/cake_bake/
+
+
+2021-10-11 18:51:02 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::logut() could not be found, or is not accessible. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'logut',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/logut
+
+
+2021-10-11 18:58:36 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::changeLang() could not be found, or is not accessible. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'changeLang',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/change-lang/fr_CA
+Referer URL: http://localhost:8888/section_2/cake_bake/users/login?redirect=%2Fusers%2Fchange-lang%2Ffr_CA
+
+
+2021-10-11 18:58:46 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::changeLang() could not be found, or is not accessible. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'changeLang',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/change-lang/fr_CA
+Referer URL: http://localhost:8888/section_2/cake_bake/users/login?redirect=%2Fusers%2Fchange-lang%2Fen_US
+
+
+2021-10-11 18:58:49 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::changeLang() could not be found, or is not accessible. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'changeLang',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/change-lang/en_US
+Referer URL: http://localhost:8888/section_2/cake_bake/users/login?redirect=%2Fusers%2Fchange-lang%2Ffr_CA
+
+
+2021-10-11 18:58:56 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::changeLang() could not be found, or is not accessible. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'changeLang',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /users/change-lang/fr_CA
+Referer URL: http://localhost:8888/section_2/cake_bake/users/
+
+
+2021-10-11 18:59:02 Error: [Cake\Controller\Exception\MissingActionException] Action ProprietesController::changeLang() could not be found, or is not accessible. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProprietesController',
+  'action' => 'changeLang',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /proprietes/change-lang/fr_CA
+Referer URL: http://localhost:8888/section_2/cake_bake/
+
+
+2021-10-11 19:03:37 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/characteristics/edit/4` did not apply any authorization checks. in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/characteristics/edit/4',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_2\cake_bake\webroot\index.php:40
+
+Request URL: /characteristics/edit/4
+Referer URL: http://localhost:8888/section_2/cake_bake/proprietes/view/secretaire92
+
+

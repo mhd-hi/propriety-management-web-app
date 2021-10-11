@@ -40,7 +40,7 @@ class CharacteristicsTable extends Table
         parent::initialize($config);
 
         $this->setTable('characteristics');
-        $this->setDisplayField('id');
+        $this->setDisplayField('name');
         $this->setPrimaryKey('id');
 
         $this->belongsToMany('Proprietes', [
@@ -74,5 +74,19 @@ class CharacteristicsTable extends Table
             ->notEmptyString('description');
 
         return $validator;
+    }
+
+        /**
+     * Returns a rules checker object that will be used for validating
+     * application integrity.
+     *
+     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
+     * @return \Cake\ORM\RulesChecker
+     */
+    public function buildRules(RulesChecker $rules): RulesChecker
+    {
+        $rules->add($rules->isUnique(['title']), ['errorField' => 'title']);
+
+        return $rules;
     }
 }
