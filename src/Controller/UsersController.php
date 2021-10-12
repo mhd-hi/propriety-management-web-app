@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use Cake\Mailer\Mailer;
+use Cake\Utility\Text;
 /**
  * Users Controller
  *
@@ -19,7 +21,7 @@ class UsersController extends AppController
         // Configure the login action to not require authentication, preventing
         // the infinite redirect loop issue
         // Add to the beforeFilter method of UsersController
-        $this->Authentication->addUnauthenticatedActions(['login', 'add']);
+        $this->Authentication->addUnauthenticatedActions(['login', 'add', 'index', 'edit' ]);//et+encore 
     }
 
     public function login()
@@ -44,6 +46,28 @@ class UsersController extends AppController
             $this->Flash->error(__('Invalid username or password'));
         }
     }
+
+    public function sendConfirmEmail($user) {
+        $this->Authorization->skipAuthorization();
+        $email = new Mailer('default');
+        $email->setTo($user->email)
+                ->setSubject(__('Confirm your email'))
+                -> deliver('http://' . $_SERVER['HTTP_HOST'] . $this->request->getAttribute('webroot') . 'users/confirm/' . $user->uuid);
+    }
+
+    public function confirm($uuid) {
+        $this->Authorization->skipAuthorization();
+        $user = $this->Users->findByUuid($uuid) ->firstOrFail();
+
+        $user->confirmed = 1; 
+        if ($this->Users->save($user)) {
+            $this->Flash->success(__('Thank you') . '. ' . __('Your email has been confirmed'));
+            return $this->redirect(['controller' => 'Proprietes', 'action' => 'index']);
+
+        }
+        $this->Flash->error(__('The confirmation could not be saved. Please, try again.'));
+    } 
+
 
     // in src/Controller/UsersController.php
     public function logout()
@@ -102,8 +126,13 @@ class UsersController extends AppController
         $user = $this->Users->newEmptyEntity();
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
+
+            $user->uuid = Text::uuid();
+
             if ($this->Users->save($user)) {
                 $this->Flash->success(__('The user has been saved.'));
+
+                $this->sendConfirmEmail($user);
 
                 return $this->redirect(['action' => 'index']);
             }
@@ -122,8 +151,17 @@ class UsersController extends AppController
      */
     public function edit($id = null)
     {
-        $user = $this->Users->get($id, ['contain' => [],
+        $this->Authorization->skipAuthorization();
+
+        $user = $this->Users->get($id, [
+            'contain' => [], 
         ]);
+
+        if ($user->uuid == '') {
+            $user->uuid = Text::uuid();
+        } 
+        
+
         if ($this->request->is(['patch', 'post', 'put'])) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {
@@ -146,6 +184,9 @@ class UsersController extends AppController
      */
     public function delete($id = null)
     {
+
+        $this->Authorization->skipAuthorization();
+
         $this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
         if ($this->Users->delete($user)) {

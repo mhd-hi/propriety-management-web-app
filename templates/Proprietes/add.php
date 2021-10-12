@@ -13,7 +13,7 @@
     </aside>
     <div class="column-responsive column-80">
         <div class="proprietes form content">
-            <?= $this->Form->create($propriete) ?>
+            <?= $this->Form->create($propriete, ['type' => 'file']) ?>
             <fieldset>
                 <legend><?= __('Add Propriete') ?></legend>
                 <?php
@@ -22,7 +22,7 @@
                     echo $this->Form->control('type');
                 //    echo $this->Form->control('slug');
                     echo $this->Form->control('sold');
-                    echo $this->Form->control('image');
+                    echo $this->Form->control('image_file', ['type' => 'file']);
                     echo $this->Form->control('price');
                     echo $this->Form->control('characteristics._ids', ['options' => $characteristics]);
 

@@ -8,7 +8,6 @@
     <aside class="column">
         <div class="side-nav">
             <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('Edit Propriete'), ['action' => 'edit', $propriete->id], ['class' => 'side-nav-item']) ?>
             <?= $this->Form->postLink(__('Delete Propriete'), ['action' => 'delete', $propriete->id], ['confirm' => __('Are you sure you want to delete # {0}?', $propriete->id), 'class' => 'side-nav-item']) ?>
             <?= $this->Html->link(__('List Proprietes'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
             <?= $this->Html->link(__('New Propriete'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>

@@ -31,8 +31,9 @@
                     <td><?= $propriete->has('user') ? $this->Html->link($propriete->user->name, ['controller' => 'Users', 'action' => 'view', $propriete->user->id]) : '' ?></td>
                     <td><?= h($propriete->type) ?></td>
                     <!--<td><?= h($propriete->slug) ?></td>-->
-                    <td><?= h($propriete->sold) ?></td>
-                    <td><?= h($propriete->image) ?></td>
+                    <td><?= h($propriete->sold) ? __('Yes') : __('No'); ?></td>
+                    <td><?= @$this->Html->image('proprietes/' . $propriete->image, ['style' => 'max-width:70px;height:70px;border-radius:50%;']) 
+                    ?></td>
                     <td><?= $this->Number->format($propriete->price) ?></td>
                     <td><?= h($propriete->created) ?></td>
                     <td><?= h($propriete->modified) ?></td>

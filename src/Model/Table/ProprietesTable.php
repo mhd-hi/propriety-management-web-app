@@ -46,6 +46,9 @@ class ProprietesTable extends Table
     {
         parent::initialize($config);
 
+        //traduction
+        $this->addBehavior('Translate', ['fields' => ['address', 'type']]);
+
         $this->setTable('proprietes');
         $this->setDisplayField('address');
         $this->setPrimaryKey('id');
@@ -61,7 +64,6 @@ class ProprietesTable extends Table
             'targetForeignKey' => 'characteristic_id',
             'joinTable' => 'characteristics_proprietes',
         ]);
-
 
        /* $this->belongsToMany('Characteristics', [
             'foreignKey' => 'propriete_id',
@@ -104,6 +106,19 @@ class ProprietesTable extends Table
             ->boolean('sold')
             ->allowEmptyString('sold');
 
+        $validator
+        ->allowEmptyFile('image_file')
+        ->add('image_file', [
+            'mimeType' => [
+                'rule' => ['mimeType', ['image/jpg', 'image/png', 'image/jpeg']],
+                'message' => 'Please upload only jpg and png.',
+            ],
+            'fileSize' => [
+                'rule' => ['fileSize', '<=', '1MB'],
+                'message' => 'Image file size must be less than 1MB.',
+            ],
+        ]);
+        
         $validator
             ->integer('price')
             ->allowEmptyString('price');

@@ -67,6 +67,22 @@ class ProprietesController extends AppController
             // Changed: Set the user_id from the current user.
             $propriete->user_id = $this->request->getAttribute('identity')->getIdentifier();
 
+
+            //les images
+            if (!$propriete->getErrors) {
+                $image = $this->request->getData('image_file');
+
+                $name = $image->getClientFilename();
+
+                $targetPath = WWW_ROOT . 'img' . DS . 'proprietes' . DS . $name;
+
+                if ($name)
+                    $image->moveTo($targetPath);
+
+                $propriete->image = $name;
+            }
+
+
             if ($this->Proprietes->save($propriete)) {
                 $this->Flash->success(__('The propriete has been saved.'));
 
@@ -98,6 +114,7 @@ class ProprietesController extends AppController
 
         $propriete = $this->Proprietes->findBySlug($slug)
             ->contain('Users')
+            ->contain('Characteristics')
             ->firstOrFail();
 
         $this->Authorization->authorize($propriete);

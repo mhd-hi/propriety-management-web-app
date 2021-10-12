@@ -19,11 +19,11 @@ use Cake\ORM\Table;
 /**
  * Tag table class
  */
-class ArticlesTagsTable extends Table
+class ProprietesCharacteristicsTable extends Table
 {
     public function initialize(array $config): void
     {
-        $this->belongsTo('Articles');
-        $this->belongsTo('Tags');
+        $this->belongsTo('Proprietes');
+        $this->belongsTo('Characteristics');
     }
 }

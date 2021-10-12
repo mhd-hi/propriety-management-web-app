@@ -26,6 +26,10 @@
                 //    echo $this->Form->control('user_id', ['type' => 'hidden']);
                     echo $this->Form->control('type');
                 //    echo $this->Form->control('slug');
+                    
+                    //echo $this->Form->control('image_file', ['type' => 'file']);
+
+
                     echo $this->Form->control('sold');
                     echo $this->Form->control('price');
                     echo $this->Form->control('characteristics._ids', ['options' => $characteristics]);

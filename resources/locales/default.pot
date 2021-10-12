@@ -13,7 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.0\n"
 
 #: Controller/PhotosController.php:56 Controller/PhotosController.php:81
 msgid "The photo has been saved."
