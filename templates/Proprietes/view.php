@@ -38,6 +38,10 @@
                     <td><?= $this->Number->format($propriete->id) ?></td>
                 </tr>-->
                 <tr>
+                    <th><?= __('Municipality') ?></th>
+                    <td><?= h($propriete->municipality['name']) ?></td>
+                </tr>
+                <tr>
                     <th><?= __('Image') ?></th>
                     <td><?= h($propriete->image) ?></td>
                 </tr>

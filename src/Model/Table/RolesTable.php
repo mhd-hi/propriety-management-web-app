@@ -39,6 +39,9 @@ class RolesTable extends Table
     {
         parent::initialize($config);
 
+        //traduction
+        $this->addBehavior('Translate', ['fields' => ['name']]);
+
         $this->setTable('roles');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');

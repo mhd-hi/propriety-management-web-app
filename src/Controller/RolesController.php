@@ -18,6 +18,8 @@ class RolesController extends AppController
      */
     public function index()
     {
+        $this->Authorization->skipAuthorization();
+        
         $roles = $this->paginate($this->Roles);
 
         $this->set(compact('roles'));
@@ -32,6 +34,8 @@ class RolesController extends AppController
      */
     public function view($id = null)
     {
+        $this->Authorization->skipAuthorization();
+
         $role = $this->Roles->get($id, [
             'contain' => ['Users'],
         ]);
@@ -46,6 +50,8 @@ class RolesController extends AppController
      */
     public function add()
     {
+        $this->Authorization->skipAuthorization();
+
         $role = $this->Roles->newEmptyEntity();
         if ($this->request->is('post')) {
             $role = $this->Roles->patchEntity($role, $this->request->getData());
@@ -68,6 +74,8 @@ class RolesController extends AppController
      */
     public function edit($id = null)
     {
+        $this->Authorization->skipAuthorization();
+
         $role = $this->Roles->get($id, [
             'contain' => [],
         ]);
@@ -92,6 +100,8 @@ class RolesController extends AppController
      */
     public function delete($id = null)
     {
+        $this->Authorization->skipAuthorization();
+
         $this->request->allowMethod(['post', 'delete']);
         $role = $this->Roles->get($id);
         if ($this->Roles->delete($role)) {

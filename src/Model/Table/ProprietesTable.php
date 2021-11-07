@@ -48,6 +48,7 @@ class ProprietesTable extends Table
 
         //traduction
         $this->addBehavior('Translate', ['fields' => ['address', 'type']]);
+        
 
         $this->setTable('proprietes');
         $this->setDisplayField('address');
@@ -57,6 +58,10 @@ class ProprietesTable extends Table
 
         $this->belongsTo('Users', [
             'foreignKey' => 'user_id',
+            'joinType' => 'INNER',
+        ]);
+        $this->belongsTo('Municipalities', [
+            'foreignKey' => 'municipality_id',
             'joinType' => 'INNER',
         ]);
         $this->belongsToMany('Characteristics', [

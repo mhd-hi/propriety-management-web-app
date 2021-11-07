@@ -3201,3 +3201,144 @@ Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
 Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
 [main] - ROOT\webroot\index.php, line 40
 
+2021-11-03 08:39:47 Notice: Notice (8): Undefined variable: article in [C:\Ampps\www\section_4 - next\cakeNext\templates\Proprietes\view.php, line 42]
+Request URL: /proprietes/view/324-rue-Le-prince
+Referer URL: http://localhost:8888/section_4%20-%20next/cakeNext/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Proprietes\view.php, line 42
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 699
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 540
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Authorization\Middleware\AuthorizationMiddleware::process() - ROOT\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php, line 129
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2021-11-03 08:39:47 Notice: Notice (8): Trying to get property 'municipality' of non-object in [C:\Ampps\www\section_4 - next\cakeNext\templates\Proprietes\view.php, line 42]
+Request URL: /proprietes/view/324-rue-Le-prince
+Referer URL: http://localhost:8888/section_4%20-%20next/cakeNext/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Proprietes\view.php, line 42
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 699
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 540
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Authorization\Middleware\AuthorizationMiddleware::process() - ROOT\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php, line 129
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2021-11-07 03:43:30 Notice: Notice (1024): Undefined property: RegionsController::$Regions in C:\Ampps\www\section_4 - next\cakeNext\src\Controller\RegionsController.php on line 65 in [C:\Ampps\www\section_4 - next\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php, line 321]
+Request URL: /REGIONS/add
+Referer URL: http://localhost:8888/section_4%20-%20next/cakeNext/users/login?redirect=%2FREGIONS%2Fadd
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 321
+App\Controller\RegionsController::add() - APP/Controller\RegionsController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Authorization\Middleware\AuthorizationMiddleware::process() - ROOT\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php, line 129
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2021-11-07 03:57:45 Notice: Notice (1024): Undefined property: RegionsController::$Regions in C:\Ampps\www\section_4 - next\cakeNext\src\Controller\RegionsController.php on line 68 in [C:\Ampps\www\section_4 - next\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php, line 321]
+Request URL: /REGIONS/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Controller\Controller::__get() - CORE\src\Controller\Controller.php, line 321
+App\Controller\RegionsController::add() - APP/Controller\RegionsController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 531
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 149
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 313
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Authorization\Middleware\AuthorizationMiddleware::process() - ROOT\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php, line 129
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 161
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 126
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+

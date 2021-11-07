@@ -34,6 +34,7 @@ class Propriete extends Entity
     protected $_accessible = [
         'address' => true,
     //    'user_id' => true,
+        'municipality_id' => true,
         'type' => true,
     //    'slug' => true,
         'sold' => true,

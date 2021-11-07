@@ -47,7 +47,7 @@ return [
             'username' => 'root',
             'password' => 'mysql',
 
-            'database' => 'immobilier',
+            'database' => 'immobilier_v2',
             /*
              * If not using the default 'public' schema with the PostgreSQL driver
              * set it here.

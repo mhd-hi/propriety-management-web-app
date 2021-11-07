@@ -1,1 +1,1 @@
-Email Sent.
+Email envoyé.
