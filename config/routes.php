@@ -79,8 +79,9 @@ $routes->prefix('api', function (RouteBuilder $builder) {
     //    $routes->setExtensions(['json']);
         $builder->resources('Provinces');
         $builder->fallbacks();
-        
 });
+
+
 
 /*
  * If you need a different set of middleware or none at all,

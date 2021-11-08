@@ -18337,3 +18337,243 @@ Request URL: /img/proprietes/
 Referer URL: http://localhost:8888/section_4%20-%20next/cakeNext/
 
 
+2021-11-08 21:13:03 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-08 21:14:06 Error: [Cake\View\Exception\MissingTemplateException] Template file `Proprietes\json\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Ampps\www\section_4\cakeNext\templates\Proprietes\json\index.php`
+- `C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\templates\Proprietes\json\index.php`
+ in Proprietes\json\index.php on line 1354
+Exception Attributes: array (
+  'file' => 'Proprietes\\json\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Ampps\\www\\section_4\\cakeNext\\templates\\',
+    1 => 'C:\\Ampps\\www\\section_4\\cakeNext\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\SerializedView.php:120
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\JsonView.php:114
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /
+
+
+2021-11-08 21:24:32 Error: [TypeError] strlen() expects parameter 1 to be string, bool given in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 280
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:280
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/6
+
+
+2021-11-08 21:25:04 Error: [TypeError] strlen() expects parameter 1 to be string, bool given in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 280
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:280
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/6
+
+
+2021-11-08 21:25:11 Error: [TypeError] strlen() expects parameter 1 to be string, bool given in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 280
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:280
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/6
+
+
+2021-11-08 21:25:13 Error: [TypeError] strlen() expects parameter 1 to be string, bool given in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 280
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:280
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/
+
+
+2021-11-08 21:25:27 Error: [TypeError] strlen() expects parameter 1 to be string, bool given in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 280
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:280
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/6
+
+
+2021-11-08 21:27:55 Error: [TypeError] strlen() expects parameter 1 to be string, bool given in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 280
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:280
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/6
+
+
+2021-11-08 21:28:03 Error: [TypeError] strlen() expects parameter 1 to be string, bool given in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 280
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:280
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/1
+
+
