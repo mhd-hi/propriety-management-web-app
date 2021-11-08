@@ -3,7 +3,8 @@
 declare(strict_types=1);
 
 namespace App\Controller;
-
+use Cake\I18n\I18n; //Ajoutez ces deux lignes au haut du fichier
+use Cake\Core\Configure;
 /**
  * Proprietes Controller
  *
@@ -59,6 +60,18 @@ class ProprietesController extends AppController
      */
     public function add()
     {
+               // Ajouter ce code au tout début de l'action Add
+       // Vérification en contexte i18n
+        if ($this->request->getSession()->check('Config.language')) {
+            $actualLanguage = $this->request->getSession()->read('Config.language'); // langue d'affichage actuellement définie
+            $defaultLanguage = Configure::read('App.defaultLocale'); // langue par défaut de l'application
+            if ($defaultLanguage != $actualLanguage) {
+                $this->Flash->success(__('Adding is available only in the default language'));
+                $this->changeLang($defaultLanguage);
+                return $this->redirect(['action' => 'add']);
+            }
+        }
+
         $propriete = $this->Proprietes->newEmptyEntity();
         $this->Authorization->authorize($propriete);
 

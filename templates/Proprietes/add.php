@@ -3,6 +3,12 @@
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Propriete $propriete
  */
+
+use Cake\I18n\I18n; //Ajoutez ces deux lignes au haut du fichier
+use Cake\Core\Configure;
+use PhpParser\Node\Stmt\Label;
+
+
 ?>
 
 <?php
@@ -29,10 +35,20 @@ echo $this->Html->script('Proprietes/add_edit/municipalityAutocomplete', ['block
             <fieldset>
                 <legend><?= __('Add Propriete') ?></legend>
                 <?php
-                    echo $this->Form->control('address');
-                //    echo $this->Form->control('user_id', ['type' => 'hidden', 'value' => 1]);
-                echo $this->Form->control('municipality_id', ['label' => __('Municipality'), 'type' => 'text', 'id' => 'autocomplete']);
-                    echo $this->Form->control('type');
+                echo $this->Form->control('address');
+                //  echo $this->Form->control('user_id', ['type' => 'hidden', 'value' => 1]);
+                echo $this->Form->control('municipality_id', ['label' => '(municipality_id)', 'type' => 'hidden']);
+
+                //echo $this->Form->control('municipality_id', ['label' => __('Municipality') . ' (' . __('Autocomplete demo') . ')', 'type' => 'text', 'id' => 'autocomplete']);
+               ?>
+
+               <div class="input text">
+                   <label for="autocomplete"><?= __("Municipality")?></Label>
+                   <input id="autocomplete" type="text">
+               </div>             
+
+               <?php
+                echo $this->Form->control('type');
                 //    echo $this->Form->control('slug');
                     echo $this->Form->control('sold');
                     echo $this->Form->control('image_file', ['type' => 'file']);

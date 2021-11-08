@@ -4,6 +4,17 @@
  * @var \App\Model\Entity\Propriete $propriete
  */
 ?>
+
+<?php
+$urlToMunicipalitiesAutocompletedemoJson = $this->Url->build([
+    "controller" => "Municipalities",
+    "action" => "findMunicipalities",
+    "_ext" => "json"
+        ]);
+echo $this->Html->scriptBlock('var urlToAutocompleteAction = "' . $urlToMunicipalitiesAutocompletedemoJson . '";', ['block' => true]);
+echo $this->Html->script('Proprietes/add_edit/municipalityAutocomplete', ['block' => 'scriptBottom']);
+?>
+
 <div class="row">
     <aside class="column">
         <div class="side-nav">
@@ -23,6 +34,19 @@
                 <legend><?= __('Edit Propriete') ?></legend>
                 <?php
                     echo $this->Form->control('address');
+
+
+                    echo $this->Form->control('municipality_id', ['label' => '(municipality_id)', 'type' => 'hidden']);
+
+                    //echo $this->Form->control('municipality_id', ['label' => __('Municipality') . ' (' . __('Autocomplete demo') . ')', 'type' => 'text', 'id' => 'autocomplete']);
+                   ?>
+    
+                   <div class="input text">
+                       <label for="autocomplete"><?= __("Municipality")?></Label>
+                       <input id="autocomplete" type="text">
+                   </div> 
+
+                   <?php
                 //    echo $this->Form->control('user_id', ['type' => 'hidden']);
                     echo $this->Form->control('type');
                 //    echo $this->Form->control('slug');
