@@ -25,8 +25,19 @@ class ProvincesController extends AppController
 
         $this->set(compact('provinces'));
         $this->viewBuilder()->setOption('serialize', ['provinces']);
-//        $this->viewBuilder()->setLayout('krajRegionsSpa');
+        $this->viewBuilder()->setLayout('provincesSpa');
     }
+
+    public function indexBaked() {
+        
+        $this->Authorization->skipAuthorization();
+        $provinces = $this->paginate($this->Provinces);
+        //        $krajRegions = $this->paginate($this->KrajRegions);
+        
+        $this->set(compact('provinces'));
+       $this->viewBuilder()->setOption('serialize', ['provinces']);
+    }
+
 
     /**
      * View method

@@ -21,6 +21,8 @@ class ProvincesController extends AppController {
         $this->viewBuilder()->setOption('serialize', ['provinces']);
     }
 
+
+
     public function view($id) {
         $province = $this->Provinces->get($id);
         $this->set('province', $province);

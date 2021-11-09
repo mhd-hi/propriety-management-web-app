@@ -19,10 +19,7 @@ $(document).ready(function () {
                 }
             });
         } else {
-            $('#okres-county-id').html('<option value="">Select province first</option>');
+            $('#region-id').html('<option value="">Select province first</option>');
         }
-    }).change();
-    
+    }).change();    
 });
-
-

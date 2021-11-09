@@ -126,9 +126,11 @@ class ProprietesController extends AppController
         ]);
         */
 
-        $propriete = $this->Proprietes->findBySlug($slug)
+        $propriete = $this->Proprietes
+            ->findBySlug($slug)
             ->contain('Users')
             ->contain('Characteristics')
+            ->contain('Municipalities')
             ->firstOrFail();
 
         $this->Authorization->authorize($propriete);

@@ -42,8 +42,8 @@ echo $this->Html->script('Proprietes/add_edit/municipalityAutocomplete', ['block
                    ?>
     
                    <div class="input text">
-                       <label for="autocomplete"><?= __("Municipality")?></Label>
-                       <input id="autocomplete" type="text">
+                       <label for="autocomplete"><?= __("Municipality") . __(" - Autocomplete")?></Label>
+                       <input id="autocomplete" type="text" value="<?= $propriete->municipality->name; ?>">
                    </div> 
 
                    <?php

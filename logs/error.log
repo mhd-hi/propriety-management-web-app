@@ -18577,3 +18577,1631 @@ Stack Trace:
 Request URL: /api/provinces/1
 
 
+2021-11-09 00:01:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 00:06:25 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 00:09:02 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 00:25:09 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 00:33:14 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 00:33:18 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 00:34:21 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 00:34:28 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 00:40:41 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 00:40:45 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 01:23:37 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 01:24:01 Error: [PDOException] SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'price' at row 1 in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:178
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:74
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Database\Connection.php:341
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\ORM\Table.php:2077
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\ORM\Table.php:1969
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\ORM\Table.php:1870
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\ORM\Table.php:1559
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Database\Connection.php:686
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\ORM\Table.php:1560
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\ORM\Table.php:1871
+- C:\Ampps\www\section_4\cakeNext\src\Controller\ProprietesController.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /proprietes/add
+Referer URL: http://localhost:8888/section_4/cakeNext/proprietes/add
+
+
+2021-11-09 01:24:13 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 01:24:31 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 01:24:51 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 01:25:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 01:27:52 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 01:28:00 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 01:28:03 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 01:28:07 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 01:40:40 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 01:41:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 01:46:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 01:50:44 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 01:54:33 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 01:54:50 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 01:54:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 02:07:55 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProvinceAction.php could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProvinceAction.php',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinceAction.php
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 02:12:18 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::1() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => '1',
+  'prefix' => 'Api',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/1
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 02:13:04 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::1() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => '1',
+  'prefix' => 'Api',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/1
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 02:13:13 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::1() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => '1',
+  'prefix' => 'Api',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/1
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 02:13:25 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::14() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => '14',
+  'prefix' => 'Api',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/14
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 02:13:36 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::14() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => '14',
+  'prefix' => 'Api',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/14
+Referer URL: http://localhost:8888/section_4/cakeNext/provinces
+
+
+2021-11-09 02:35:08 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
+2021-11-09 02:35:40 Error: [Cake\View\Exception\MissingTemplateException] Template file `Provinces\index_backed.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Ampps\www\section_4\cakeNext\templates\Provinces\index_backed.php`
+- `C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\templates\Provinces\index_backed.php`
+ in Provinces\index_backed.php on line 1354
+Exception Attributes: array (
+  'file' => 'Provinces\\index_backed.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Ampps\\www\\section_4\\cakeNext\\templates\\',
+    1 => 'C:\\Ampps\\www\\section_4\\cakeNext\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/index_backed
+
+
+2021-11-09 02:36:15 Error: [Cake\View\Exception\MissingTemplateException] Template file `Provinces\index_backed.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Ampps\www\section_4\cakeNext\templates\Provinces\index_backed.php`
+- `C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\templates\Provinces\index_backed.php`
+ in Provinces\index_backed.php on line 1354
+Exception Attributes: array (
+  'file' => 'Provinces\\index_backed.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Ampps\\www\\section_4\\cakeNext\\templates\\',
+    1 => 'C:\\Ampps\\www\\section_4\\cakeNext\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/indexBacked
+
+
+2021-11-09 02:36:30 Error: [Cake\View\Exception\MissingTemplateException] Template file `Provinces\index_backed.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Ampps\www\section_4\cakeNext\templates\Provinces\index_backed.php`
+- `C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\templates\Provinces\index_backed.php`
+ in Provinces\index_backed.php on line 1354
+Exception Attributes: array (
+  'file' => 'Provinces\\index_backed.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Ampps\\www\\section_4\\cakeNext\\templates\\',
+    1 => 'C:\\Ampps\\www\\section_4\\cakeNext\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/indexBacked
+
+
+2021-11-09 02:36:44 Error: [Cake\View\Exception\MissingTemplateException] Template file `Provinces\index_backed.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Ampps\www\section_4\cakeNext\templates\Provinces\index_backed.php`
+- `C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\templates\Provinces\index_backed.php`
+ in Provinces\index_backed.php on line 1354
+Exception Attributes: array (
+  'file' => 'Provinces\\index_backed.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Ampps\\www\\section_4\\cakeNext\\templates\\',
+    1 => 'C:\\Ampps\\www\\section_4\\cakeNext\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/indexBacked
+
+
+2021-11-09 02:36:54 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::indexBacked() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => 'indexBacked',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/index_backed
+
+
+2021-11-09 02:37:31 Error: [Cake\View\Exception\MissingTemplateException] Template file `Provinces\index_backed.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Ampps\www\section_4\cakeNext\templates\Provinces\index_backed.php`
+- `C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\templates\Provinces\index_backed.php`
+ in Provinces\index_backed.php on line 1354
+Exception Attributes: array (
+  'file' => 'Provinces\\index_backed.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Ampps\\www\\section_4\\cakeNext\\templates\\',
+    1 => 'C:\\Ampps\\www\\section_4\\cakeNext\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/index_backed
+
+
+2021-11-09 02:38:39 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::indexBacked() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => 'indexBacked',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/index_backed
+
+
+2021-11-09 02:40:41 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::indexBacked() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => 'indexBacked',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/index_backed
+
+
+2021-11-09 02:40:55 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::indexBacked() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => 'indexBacked',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/index_backed
+
+
+2021-11-09 02:43:24 Error: [Cake\Controller\Exception\MissingActionException] Action ProvincesController::indexBacked() could not be found, or is not accessible. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php on line 510
+Exception Attributes: array (
+  'controller' => 'ProvincesController',
+  'action' => 'indexBacked',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:100
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/index_backed
+
+
+2021-11-09 02:44:57 Error: [Cake\View\Exception\MissingTemplateException] Template file `Api\Provinces\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Ampps\www\section_4\cakeNext\templates\Api\Provinces\index.php`
+- `C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\templates\Api\Provinces\index.php`
+ in Api\Provinces\index.php on line 1354
+Exception Attributes: array (
+  'file' => 'Api\\Provinces\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Ampps\\www\\section_4\\cakeNext\\templates\\',
+    1 => 'C:\\Ampps\\www\\section_4\\cakeNext\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/
+
+
+2021-11-09 03:00:51 Error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/
+
+
+2021-11-09 03:00:54 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /img/proprietes/
+Referer URL: http://localhost:8888/section_4/cakeNext/
+
+
