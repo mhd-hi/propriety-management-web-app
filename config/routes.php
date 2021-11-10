@@ -82,7 +82,12 @@ $routes->prefix('api', function (RouteBuilder $builder) {
 });
 
 
-
+$routes->prefix('Admin', function (RouteBuilder $builder) {
+    // All routes here will be prefixed with `/admin`, and
+    // have the `'prefix' => 'Admin'` route element added that
+    // will be required when generating URLs for these routes
+    $builder->fallbacks(DashedRoute::class);
+});
 /*
  * If you need a different set of middleware or none at all,
  * open new scope and define routes there.

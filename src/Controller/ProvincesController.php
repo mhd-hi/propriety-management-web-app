@@ -35,7 +35,8 @@ class ProvincesController extends AppController
         //        $krajRegions = $this->paginate($this->KrajRegions);
         
         $this->set(compact('provinces'));
-       $this->viewBuilder()->setOption('serialize', ['provinces']);
+       //$this->viewBuilder()->setOption('serialize', ['provinces']);
+       
     }
 
 
