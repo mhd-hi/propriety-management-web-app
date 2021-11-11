@@ -44,7 +44,7 @@ use Cake\Routing\RouteBuilder;
 /** @var \Cake\Routing\RouteBuilder $routes */
 $routes->setRouteClass(DashedRoute::class);
 
-$routes->setExtensions(['json', 'xml']);
+$routes->setExtensions(['json', 'xml', 'pdf']);
 
 $routes->scope('/', function (RouteBuilder $builder) {
     /*

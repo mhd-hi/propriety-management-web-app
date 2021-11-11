@@ -39,6 +39,8 @@
                     <td><?= h($propriete->modified) ?></td>
                     <td class="actions">
                         <?= $this->Html->link(__('View'), ['action' => 'view', $propriete->slug]) ?>
+                        <?= $this->Html->link(__('(pdf)'), ['action' => 'view', $propriete->slug . '.pdf']) ?>
+                        
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $propriete->slug]) ?>
                         <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $propriete->id], ['confirm' => __('Are you sure you want to delete # {0}?', $propriete->id)]) ?>
                     </td>

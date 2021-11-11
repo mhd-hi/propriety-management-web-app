@@ -26,9 +26,7 @@
                     <td><?= h($region->code) ?></td>
                     <td><?= h($region->name) ?></td>
                     <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $region->id]) ?>
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $region->id]) ?>
-                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $region->id], ['confirm' => __('Are you sure you want to delete # {0}?', $region->id)]) ?>
+                        <?= $this->Html->link(__('View'), ['action' => 'view', $region->id]) ?>                     
                     </td>
                 </tr>
                 <?php endforeach; ?>

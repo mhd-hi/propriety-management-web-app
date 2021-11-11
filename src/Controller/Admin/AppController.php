@@ -16,7 +16,7 @@ declare(strict_types=1);
  * @license   https://opensource.org/licenses/mit-license.php MIT License
  */
 
-namespace App\Controller;
+namespace App\Controller\Admin;
 
 use Cake\Controller\Controller;
 use Cake\I18n\I18n;
@@ -49,6 +49,7 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+     
 
         // Add this line to check authentication result and lock your site
         $this->loadComponent('Authentication.Authentication');
@@ -77,11 +78,11 @@ class AppController extends Controller
             $this->set("LoggedUser", $this->request->getSession()->read('Auth'));
         }
     }
-/*
+
     public function changeLang($lang = 'en_US') {
         $this->Authorization->skipAuthorization();
         I18n::setLocale($lang);
         $this->request->getSession()->write('Config.language', $lang);
         return $this->redirect($this->request->referer());
-    }*/
+    } 
 }

@@ -54,6 +54,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
+        
+        <?= $this->Html->link(__('Admin demo'), ['prefix' => false, 'controller' => 'Regions', 'action' => 'index']) ?>
+                <?= $this->Html->link(__('Linked lists demo'), ['prefix' => false, 'controller' => 'Municipalities', 'action' => 'add']) ?>
+                <?= $this->Html->link(__('Autocomplete demo'), ['prefix' => false, 'controller' => 'Proprietes', 'action' => 'add']) ?>
+<!--todo: enlever prefix false -->
+
+        
         <?php
             if (isset($LoggedUser)) {
                 echo $this->Html->link('Logout:  ' . $LoggedUser->email, ['controller' => 'Users', 'action' => 'logout']);
