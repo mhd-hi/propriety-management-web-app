@@ -14,7 +14,6 @@
  * @var \App\View\AppView $this
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,7 +21,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        <?= $cakeDescription ?>:
+        
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
@@ -49,27 +48,33 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 ], ['block' => 'scriptLibraries']
         );
     ?>
+
 </head>
 <body>
-    <nav class="top-nav">
-        <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
-        </div>
-        <div class="top-nav-links">
+
+
+    <nav class="navbar navbar-dark bg-dark" role="navigation">
+    <div class="top-nav-title">
+        <a class="navbar-brand"href="<?= $this->Url->build('/') ?>">Acceuil</a>
+    </div>
+
+
+
+    <button class="btn btn-light">
         <?php
             if (isset($LoggedUser)) {
                 echo $this->Html->link('Logout:  ' . $LoggedUser->email, ['controller' => 'Users', 'action' => 'logout']);
             } else {
                 echo $this->Html->link('Login', ['controller' => 'Users', 'action' => 'login']);
             }
-        ?>
-            <?= $this->Html->link('Français', ['action' => 'changeLang', 'fr_CA'], ['escape' => false]) ?>
+        ?> /
+        <?= $this->Html->link('Français', ['action' => 'changeLang', 'fr_CA'], ['escape' => false]) ?>
+
             <?= $this->Html->link('English', ['action' => 'changeLang', 'en_US'], ['escape' => false]) ?>
-            <?= $this->Html->link('Italian', ['action' => 'changeLang', 'it_IT'], ['escape' => false]) ?><br/>
-            <a href="<?= $this->Url->build('/Apropos') ?>">À propos</a>
             
-            </div>
-        </div>
+            <?= $this->Html->link('Italian', ['action' => 'changeLang', 'it_IT'], ['escape' => false]) ?></button>
+            <button class="btn btn-light">
+            <a href="<?= $this->Url->build('/Apropos') ?>">À propos</a></button> 
     </nav>
     <main class="main">
         <div class="container">

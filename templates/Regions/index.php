@@ -10,8 +10,8 @@
     </div>
     <h3><?= __('Regions') ?></h3>
     <div class="table-responsive">
-    <table class="table table-striped table-bordered">
-            <thead class="thead-dark">
+    <table class="table table-striped table-dark">
+            <thead class="thead-light">
                 <tr>
                     <th><?= $this->Paginator->sort('id') ?></th>
                     <th><?= $this->Paginator->sort('province_id') ?></th>

@@ -51,11 +51,26 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     ?>
 </head>
 <body>
-    <nav class="top-nav">
+    <nav class="navbar navbar-dark bg-dark" role="navigation">
         <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
+            <a href="<?= $this->Url->build('/') ?>">Acceuil - Proprietes</a>
         </div>
+
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Liens vers les autres tables
+  </button>
+    <div class="dropdown-menu"   aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" ><?= $this->Html->link(__('Listes liées - Municipalities'), ['controller' => 'Municipalities', 'action' => 'index']) ?></a>
+        <a class="dropdown-item" ><?= $this->Html->link(__('Autocomplétion - Proprietes'), ['controller' => 'Proprietes', 'action' => 'index']) ?></a>
+        <a class="dropdown-item" ><?= $this->Html->link(__('Monopage - Provinces'), ['controller' => 'Provinces', 'action' => 'index']) ?></a>
+    </div>
+    </div>
         <div class="top-nav-links">
+        
+
+
+        
         <?php
             if (isset($LoggedUser)) {
                 echo $this->Html->link('Logout:  ' . $LoggedUser->email, ['controller' => 'Users', 'action' => 'logout']);
@@ -65,7 +80,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         ?>
             <?= $this->Html->link('Français', ['action' => 'changeLang', 'fr_CA'], ['escape' => false]) ?>
             <?= $this->Html->link('English', ['action' => 'changeLang', 'en_US'], ['escape' => false]) ?>
-            <?= $this->Html->link('Italian', ['action' => 'changeLang', 'it_IT'], ['escape' => false]) ?><br/>
+            <?= $this->Html->link('Italian', ['action' => 'changeLang', 'it_IT'], ['escape' => false]) ?>
             <a href="<?= $this->Url->build('/Apropos') ?>">À propos</a>
             
             </div>
