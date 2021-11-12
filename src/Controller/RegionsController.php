@@ -38,6 +38,8 @@ class RegionsController extends AppController
         $regions = $this->paginate($this->Regions);
 
         $this->set(compact('regions'));
+        $this->viewBuilder()->setOption('serialize', ['regions']);
+        $this->viewBuilder()->setLayout('regionsBootstrap');
     }
 
     /**

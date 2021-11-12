@@ -5,11 +5,13 @@
  */
 ?>
 <div class="regions index content">
-    <?= $this->Html->link(__('New Region'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <div style = "position:absolute; top:20px;right:50px">
+        <?= $this->Html->link(__('Admin Regions'), ['prefix' => 'Admin','controller' => 'Regions','action' => 'index'], ['class' => 'btn btn-danger']) ?>
+    </div>
     <h3><?= __('Regions') ?></h3>
     <div class="table-responsive">
-        <table>
-            <thead>
+    <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
                 <tr>
                     <th><?= $this->Paginator->sort('id') ?></th>
                     <th><?= $this->Paginator->sort('province_id') ?></th>
