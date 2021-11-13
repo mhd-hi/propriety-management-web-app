@@ -58,8 +58,6 @@
         <a class="navbar-brand"href="<?= $this->Url->build('/') ?>">Acceuil</a>
     </div>
 
-
-
     <button class="btn btn-light">
         <?php
             if (isset($LoggedUser)) {
@@ -73,8 +71,7 @@
             <?= $this->Html->link('English', ['action' => 'changeLang', 'en_US'], ['escape' => false]) ?>
             
             <?= $this->Html->link('Italian', ['action' => 'changeLang', 'it_IT'], ['escape' => false]) ?></button>
-            <button class="btn btn-light">
-            <a href="<?= $this->Url->build('/Apropos') ?>">À propos</a></button> 
+            <button class="btn btn-light"><a href="<?= $this->Url->build('/Apropos') ?>">À propos</a></button> 
     </nav>
     <main class="main">
         <div class="container">
