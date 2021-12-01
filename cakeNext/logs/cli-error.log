@@ -1,0 +1,210 @@
+2021-09-22 09:20:55 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+Caused by: [PDOException] PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+
+
+2021-09-22 09:21:49 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+Caused by: [PDOException] PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+
+
+2021-09-22 09:22:30 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client',
+)
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+Caused by: [PDOException] PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Utility\TableScanner.php:82
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:88
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+
+
+2021-10-11 04:26:04 Error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'immobilier.photoso' doesn't exist in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 142
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php:84
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:653
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\ModelCommand.php:199
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'immobilier.photoso' doesn't exist in C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:310
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Connection.php:313
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:140
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:100
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php:84
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\ORM\Table.php:653
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\ModelCommand.php:199
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\Ampps\www\section_2\cake_bake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Ampps\www\section_2\cake_bake\bin\cake.php:12
+
+
+

@@ -1,0 +1,364 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2021-10-09 23:44-0400\n"
+"PO-Revision-Date: 2021-10-11 21:46-0400\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: fr_CA\n"
+
+#: Controller/PhotosController.php:56 Controller/PhotosController.php:81
+msgid "The photo has been saved."
+msgstr ""
+
+#: Controller/PhotosController.php:60 Controller/PhotosController.php:85
+msgid "The photo could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PhotosController.php:103
+msgid "The photo has been deleted."
+msgstr ""
+
+#: Controller/PhotosController.php:105
+msgid "The photo could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ProprietesController.php:72
+#: Controller/ProprietesController.php:109
+msgid "The propriete has been saved."
+msgstr "Le propriétaire a été sauvegardé."
+
+#: Controller/ProprietesController.php:76
+#: Controller/ProprietesController.php:113
+msgid "The propriete could not be saved. Please, try again."
+msgstr "Le propriétaire n'a pas pu être sauvegardé. Veuillez réessayer."
+
+#: Controller/ProprietesController.php:132
+msgid "The propriete has been deleted."
+msgstr "La propriété a été supprimée."
+
+#: Controller/ProprietesController.php:134
+msgid "The propriete could not be deleted. Please, try again."
+msgstr "La propriété n'a pas pu être supprimée. Veuillez réessayer."
+
+#: Controller/RolesController.php:53 Controller/RolesController.php:77
+msgid "The role has been saved."
+msgstr ""
+
+#: Controller/RolesController.php:57 Controller/RolesController.php:81
+msgid "The role could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/RolesController.php:98
+msgid "The role has been deleted."
+msgstr ""
+
+#: Controller/RolesController.php:100
+msgid "The role could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:44
+msgid "Invalid username or password"
+msgstr "Email ou mdp non valide"
+
+#: Controller/UsersController.php:105 Controller/UsersController.php:129
+msgid "The user has been saved."
+msgstr "L'utilisateur a été sauvegardé."
+
+#: Controller/UsersController.php:109 Controller/UsersController.php:133
+msgid "The user could not be saved. Please, try again."
+msgstr "L'utilisateur n'a pas pu être sauvegardé. Svp, réessayer."
+
+#: Controller/UsersController.php:151
+msgid "The user has been deleted."
+msgstr "L'utilisateur a été supprimé."
+
+#: Controller/UsersController.php:153
+msgid "The user could not be deleted. Please, try again."
+msgstr "L'utilisateur n'a pas pu être supprimé. Svp, réessayer."
+
+#: Photos/add.php:10 Photos/edit.php:10 Photos/index.php:21 Photos/view.php:10
+#: Proprietes/add.php:10 Proprietes/edit.php:10 Proprietes/index.php:23
+#: Proprietes/view.php:10 Proprietes/view.php:71 Roles/add.php:10
+#: Roles/edit.php:10 Roles/index.php:16 Roles/view.php:10 Roles/view.php:43
+#: Users/add.php:10 Users/edit.php:10 Users/index.php:21 Users/view.php:10
+#: Users/view.php:65
+msgid "Actions"
+msgstr ""
+
+#: Photos/add.php:11 Photos/edit.php:16 Photos/view.php:13
+msgid "List Photos"
+msgstr ""
+
+#: Photos/add.php:18
+msgid "Add Photo"
+msgstr ""
+
+#: Photos/add.php:26 Photos/edit.php:31 Proprietes/add.php:28
+#: Proprietes/edit.php:33 Roles/add.php:23 Roles/edit.php:28 Users/add.php:26
+#: Users/edit.php:31
+msgid "Submit"
+msgstr "Soumettre"
+
+#: Photos/edit.php:12 Photos/index.php:37 Proprietes/edit.php:12
+#: Proprietes/index.php:41 Proprietes/view.php:85 Roles/edit.php:12
+#: Roles/index.php:27 Roles/view.php:57 Users/edit.php:12 Users/index.php:37
+#: Users/view.php:81
+msgid "Delete"
+msgstr "Supprimer"
+
+#: Photos/edit.php:14 Photos/index.php:37 Photos/view.php:12
+#: Proprietes/edit.php:14 Proprietes/index.php:41 Proprietes/view.php:12
+#: Proprietes/view.php:85 Roles/edit.php:14 Roles/index.php:27
+#: Roles/view.php:12 Roles/view.php:57 Users/edit.php:14 Users/index.php:37
+#: Users/view.php:12 Users/view.php:81
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Etes vous sur de supprimer  # {0}?"
+
+#: Photos/edit.php:23 Photos/view.php:11
+msgid "Edit Photo"
+msgstr "Modifier la photo"
+
+#: Photos/index.php:8 Photos/view.php:14
+msgid "New Photo"
+msgstr ""
+
+#: Photos/index.php:9
+msgid "Photos"
+msgstr ""
+
+#: Photos/index.php:35 Proprietes/index.php:39 Proprietes/view.php:83
+#: Roles/index.php:25 Roles/view.php:55 Users/index.php:35 Users/view.php:79
+msgid "View"
+msgstr "Afficher"
+
+#: Photos/index.php:36 Proprietes/index.php:40 Proprietes/view.php:84
+#: Roles/index.php:26 Roles/view.php:56 Users/index.php:36 Users/view.php:80
+msgid "Edit"
+msgstr "Modifier"
+
+#: Photos/index.php:46 Proprietes/index.php:50 Roles/index.php:36
+#: Users/index.php:46
+msgid "first"
+msgstr "premier"
+
+#: Photos/index.php:47 Proprietes/index.php:51 Roles/index.php:37
+#: Users/index.php:47
+msgid "previous"
+msgstr "précendent"
+
+#: Photos/index.php:49 Proprietes/index.php:53 Roles/index.php:39
+#: Users/index.php:49
+msgid "next"
+msgstr "suivant"
+
+#: Photos/index.php:50 Proprietes/index.php:54 Roles/index.php:40
+#: Users/index.php:50
+msgid "last"
+msgstr "dernier"
+
+#: Photos/index.php:52 Proprietes/index.php:56 Roles/index.php:42
+#: Users/index.php:52
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+
+#: Photos/view.php:12
+msgid "Delete Photo"
+msgstr ""
+
+#: Photos/view.php:22
+msgid "Propriete"
+msgstr "Propriété"
+
+#: Photos/view.php:26 Proprietes/view.php:66
+msgid "Title"
+msgstr "Titre"
+
+#: Photos/view.php:30 Proprietes/view.php:68
+msgid "Filename"
+msgstr "Nom du fichier"
+
+#: Photos/view.php:34 Proprietes/view.php:38 Proprietes/view.php:64
+#: Roles/view.php:26 Roles/view.php:36 Users/view.php:38 Users/view.php:56
+msgid "Id"
+msgstr ""
+
+#: Photos/view.php:38 Proprietes/view.php:67
+msgid "Date"
+msgstr ""
+
+#: Photos/view.php:42 Proprietes/view.php:46 Proprietes/view.php:69
+#: Roles/view.php:41 Users/view.php:42 Users/view.php:63
+msgid "Created"
+msgstr "Créé"
+
+#: Photos/view.php:46 Proprietes/view.php:50 Proprietes/view.php:70
+#: Roles/view.php:42 Users/view.php:46 Users/view.php:64
+msgid "Modified"
+msgstr "Modifié"
+
+#: Proprietes/add.php:11 Proprietes/edit.php:16 Proprietes/view.php:13
+msgid "List Proprietes"
+msgstr "Liste des propriétés"
+
+#: Proprietes/add.php:18
+msgid "Add Propriete"
+msgstr "Ajouter une propriété"
+
+#: Proprietes/edit.php:23 Proprietes/view.php:11
+msgid "Edit Propriete"
+msgstr "Modifier une propriété"
+
+#: Proprietes/index.php:8 Proprietes/view.php:14
+msgid "New Propriete"
+msgstr "Nouvelle propriété"
+
+#: Proprietes/index.php:9
+msgid "Proprietes"
+msgstr "Propriétés"
+
+#: Proprietes/view.php:12
+msgid "Delete Propriete"
+msgstr "Supprimer la propriété"
+
+#: Proprietes/view.php:22 Users/view.php:57
+msgid "Address"
+msgstr "Adresse"
+
+#: Proprietes/view.php:26
+msgid "User"
+msgstr "Utilisateur"
+
+#: Proprietes/view.php:30 Users/view.php:59
+msgid "Type"
+msgstr ""
+
+#: Proprietes/view.php:34 Users/view.php:60
+msgid "Slug"
+msgstr ""
+
+#: Proprietes/view.php:42 Users/view.php:62
+msgid "Price"
+msgstr "Prix"
+
+#: Proprietes/view.php:54 Users/view.php:61
+msgid "State"
+msgstr "Vendu"
+
+#: Proprietes/view.php:55
+msgid "Yes"
+msgstr "Oui"
+
+#: Proprietes/view.php:55
+msgid "No"
+msgstr "Non"
+
+#: Proprietes/view.php:59
+msgid "Related Photos"
+msgstr ""
+
+#: Proprietes/view.php:65
+msgid "Propriete Id"
+msgstr ""
+
+#: Roles/add.php:11 Roles/edit.php:16 Roles/view.php:13
+msgid "List Roles"
+msgstr ""
+
+#: Roles/add.php:18
+msgid "Add Role"
+msgstr ""
+
+#: Roles/edit.php:23 Roles/view.php:11
+msgid "Edit Role"
+msgstr ""
+
+#: Roles/index.php:8 Roles/view.php:14
+msgid "New Role"
+msgstr ""
+
+#: Roles/index.php:9
+msgid "Roles"
+msgstr ""
+
+#: Roles/view.php:12
+msgid "Delete Role"
+msgstr ""
+
+#: Roles/view.php:22 Roles/view.php:38 Users/view.php:26
+msgid "Name"
+msgstr "Nom"
+
+#: Roles/view.php:31
+msgid "Related Users"
+msgstr "Utilisateurs reliés"
+
+#: Roles/view.php:37
+msgid "Role Id"
+msgstr ""
+
+#: Roles/view.php:39 Users/view.php:30
+msgid "Email"
+msgstr "Email"
+
+#: Roles/view.php:40 Users/view.php:34
+msgid "Password"
+msgstr "Mot de passe"
+
+#: Users/add.php:11 Users/edit.php:16 Users/view.php:13
+msgid "List Users"
+msgstr "Liste des utilisateurs"
+
+#: Users/add.php:18
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+
+#: Users/edit.php:23 Users/view.php:11
+msgid "Edit User"
+msgstr "Modifier un utilisateur"
+
+#: Users/index.php:8 Users/view.php:14
+msgid "New User"
+msgstr "Nouveau utilisateur"
+
+#: Users/index.php:9
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: Users/login.php:7
+msgid "Please enter your username and password"
+msgstr "Entrer votre email et mot de passe svp"
+
+#: Users/login.php:11
+msgid "Login"
+msgstr "Se connecter"
+
+#: Users/view.php:12
+msgid "Delete User"
+msgstr "Supprimer l'utilisateur"
+
+#: Users/view.php:22
+msgid "Role"
+msgstr ""
+
+#: Users/view.php:51
+msgid "Related Proprietes"
+msgstr "Propriétés reliés"
+
+#: Users/view.php:58
+msgid "User Id"
+msgstr "Utilisateur id"
+
+#: layout/error.php:38
+msgid "Back"
+msgstr "Arrière"
