@@ -11,6 +11,26 @@ namespace App\Controller;
  */
 class ProvincesController extends AppController
 {
+
+
+    public function beforeFilter(\Cake\Event\EventInterface $event) {
+        parent::beforeFilter($event);
+        // for all controllers in our application, make index and view
+        // actions public, skipping the authentication check
+        $this->Authentication->addUnauthenticatedActions(['getProvinces']);
+    }
+
+    public function getProvinces() {
+        $this->Authorization->skipAuthorization();
+        $provinces = $this->Provinces->find('all',
+                ['contain' => ['Regions']]);
+        $this->set([
+            'provinces' => $provinces,
+            '_serialize' => ['provinces']
+        ]);
+    }
+
+
     /**
      * Index method
      *
