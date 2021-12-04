@@ -45,7 +45,8 @@ class ProvincesController extends AppController
 
         $this->set(compact('provinces'));
         $this->viewBuilder()->setOption('serialize', ['provinces']);
-        $this->viewBuilder()->setLayout('provincesSpa');
+        $this->viewBuilder()->setLayout('cakephp_default');
+        //$this->viewBuilder()->setLayout('provincesSpa');
     }
 
     public function indexBaked() {
