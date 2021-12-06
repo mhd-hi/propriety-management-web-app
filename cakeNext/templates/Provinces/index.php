@@ -24,10 +24,10 @@ echo $this->Html->script('Provinces/index', ['block' => 'scriptBottom']);
         </tr>
     </table>
     <br /> <br /> 
-    <a ng-click="getProvince(province.id)">Get Province</a> 
-    <a ng-click="updateProvince(province.id, province.name, province.code)">Update Province</a> 
-    <a ng-click="addProvince(province.name, province.code)">Add Province</a> 
-    <a ng-click="deleteProvince(province.id)">Delete Province</a>
+    <a ng-click="getProvince(province.id)">[Get Province]</a> 
+    <a ng-click="updateProvince(province.id, province.name, province.code)">[Update Province]</a> 
+    <a ng-click="addProvince(province.name, province.code)">[Add Province]</a> 
+<a ng-click="deleteProvince(province.id)">[Delete Province]</a>
 
     <br /> 
     <br />
@@ -37,10 +37,10 @@ echo $this->Html->script('Provinces/index', ['block' => 'scriptBottom']);
 
     <br />
     <br /> 
-    <a ng-click="getAllProvinces()">Get all Provinces</a><br /> 
+    <a ng-click="getAllProvinces()">[Get all Provinces]</a><br /> 
     <br /> <br />
     <div ng-repeat="province in provinces">
         {{province.id}} {{province.name}} {{province.code}}
     </div>
-    <!-- pre ng-show='provinces'>{{provinces | json }}</pre-->
+     <!--pre ng-show='provinces'>{{provinces | json }}</pre-->
 </div>

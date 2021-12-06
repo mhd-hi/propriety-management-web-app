@@ -22653,3 +22653,435 @@ Request URL: /img/proprietes/
 Referer URL: http://localhost:8888/section_4/cakeNext/
 
 
+2021-12-04 05:48:22 Error: [Authorization\Exception\AuthorizationRequiredException] The request to `/provinces/add` did not apply any authorization checks. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/provinces/add',
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces/add
+Referer URL: http://localhost:8888/section_4/cakeNext/users/login?redirect=%2Fprovinces%2Fadd
+
+
+2021-12-04 06:42:00 Error: [Cake\View\Exception\MissingTemplateException] Template file `Api\Provinces\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Ampps\www\section_4\cakeNext\templates\Api\Provinces\index.php`
+- `C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\templates\Api\Provinces\index.php`
+ in Api\Provinces\index.php on line 1354
+Exception Attributes: array (
+  'file' => 'Api\\Provinces\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Ampps\\www\\section_4\\cakeNext\\templates\\',
+    1 => 'C:\\Ampps\\www\\section_4\\cakeNext\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces/
+
+
+2021-12-04 06:44:35 Error: [Cake\Http\Exception\MissingControllerException] Controller class Api could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/api/provinces.json/
+
+
+2021-12-04 06:44:50 Error: [Cake\Http\Exception\MissingControllerException] Controller class Provinces.json could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Provinces.json',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces.json/
+
+
+2021-12-04 06:45:11 Error: [Cake\Http\Exception\MissingControllerException] Controller class Provinces.json could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Provinces.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces.json/
+
+
+2021-12-04 06:45:15 Error: [Cake\Http\Exception\MissingControllerException] Controller class Provinces.json could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Provinces.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces.json/
+
+
+2021-12-04 06:45:19 Error: [Cake\Http\Exception\MissingControllerException] Controller class Provinces.json could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Provinces.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces.json/
+
+
+2021-12-04 06:45:20 Error: [Cake\Http\Exception\MissingControllerException] Controller class Provinces.json could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Provinces.json',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces.json/
+
+
+2021-12-04 06:45:45 Error: [Cake\Http\Exception\MissingControllerException] Controller class Municipalities.json could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Municipalities.json',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/municipalities.json/
+
+
+2021-12-04 06:45:58 Error: [Cake\Http\Exception\MissingControllerException] Controller class Regions.json could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Regions.json',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/regions.json/
+
+
+2021-12-04 06:46:06 Error: [Cake\Http\Exception\MissingControllerException] Controller class Provinces.json could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Provinces.json',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces.json/
+
+
+2021-12-04 06:55:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class Provinces.json could not be found. in C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'Provinces.json',
+  'plugin' => NULL,
+  'prefix' => 'Api',
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:211
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /api/provinces.json/
+
+
+2021-12-06 04:44:14 Error: [Error] Class 'BootstrapUI\View\UIView' not found in C:\Ampps\www\section_4\cakeNext\src\View\AppView.php on line 27
+Stack Trace:
+- C:\Ampps\www\section_4\cakeNext\vendor\composer\ClassLoader.php:480
+- C:\Ampps\www\section_4\cakeNext\vendor\composer\ClassLoader.php:346
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Core\App.php:158
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Core\App.php:66
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\ViewBuilder.php:549
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php:75
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:698
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authorization\src\Middleware\AuthorizationMiddleware.php:129
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Ampps\www\section_4\cakeNext\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Ampps\www\section_4\cakeNext\webroot\index.php:40
+
+Request URL: /provinces
+
+

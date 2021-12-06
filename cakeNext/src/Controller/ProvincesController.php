@@ -44,8 +44,9 @@ class ProvincesController extends AppController
         
 
         $this->set(compact('provinces'));
-        $this->viewBuilder()->setOption('serialize', ['provinces']);
+        
         $this->viewBuilder()->setLayout('cakephp_default');
+        $this->viewBuilder()->setOption('serialize', ['provinces']);
         //$this->viewBuilder()->setLayout('provincesSpa');
     }
 
@@ -57,7 +58,6 @@ class ProvincesController extends AppController
         
         $this->set(compact('provinces'));
        //$this->viewBuilder()->setOption('serialize', ['provinces']);
-       
     }
 
 
@@ -84,6 +84,7 @@ class ProvincesController extends AppController
      */
     public function add()
     {
+        $this->Authorization->skipAuthorization();
         $province = $this->Provinces->newEmptyEntity();
         if ($this->request->is('post')) {
             $province = $this->Provinces->patchEntity($province, $this->request->getData());
@@ -106,6 +107,7 @@ class ProvincesController extends AppController
      */
     public function edit($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $province = $this->Provinces->get($id, [
             'contain' => [],
         ]);
@@ -130,6 +132,7 @@ class ProvincesController extends AppController
      */
     public function delete($id = null)
     {
+        $this->Authorization->skipAuthorization();
         $this->request->allowMethod(['post', 'delete']);
         $province = $this->Provinces->get($id);
         if ($this->Provinces->delete($province)) {

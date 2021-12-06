@@ -11,6 +11,10 @@ namespace App\Controller;
  */
 class MunicipalitiesController extends AppController
 {
+    public function initialize(): void {
+        parent::initialize();
+        $this->viewBuilder()->setLayout('cakephp_default');
+    }
 
     public function findMunicipalities() {
         $this->Authorization->skipAuthorization();

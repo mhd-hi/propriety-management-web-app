@@ -72,6 +72,7 @@ return array(
     'CakePdf\\' => array($vendorDir . '/friendsofcake/cakepdf/src'),
     'CakePHP\\' => array($vendorDir . '/cakephp/cakephp-codesniffer/CakePHP'),
     'Brick\\VarExporter\\' => array($vendorDir . '/brick/varexporter/src'),
+    'BootstrapUI\\' => array($vendorDir . '/friendsofcake/bootstrap-ui/src'),
     'Bake\\' => array($vendorDir . '/cakephp/bake/src'),
     'Authorization\\' => array($vendorDir . '/cakephp/authorization/src'),
     'Authentication\\' => array($vendorDir . '/cakephp/authentication/src'),

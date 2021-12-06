@@ -154,6 +154,7 @@ class ComposerStaticInitd61be99e836a1014b99a9bf5dc1b1172
         'B' => 
         array (
             'Brick\\VarExporter\\' => 18,
+            'BootstrapUI\\' => 12,
             'Bake\\' => 5,
         ),
         'A' => 
@@ -433,6 +434,10 @@ class ComposerStaticInitd61be99e836a1014b99a9bf5dc1b1172
         'Brick\\VarExporter\\' => 
         array (
             0 => __DIR__ . '/..' . '/brick/varexporter/src',
+        ),
+        'BootstrapUI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofcake/bootstrap-ui/src',
         ),
         'Bake\\' => 
         array (

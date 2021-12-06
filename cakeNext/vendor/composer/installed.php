@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5c59b822810e0606a549549eeb6b2cb073c46f59',
+        'reference' => '3794885d24828839c7010655fb4b6e57034f8878',
         'name' => 'cakephp/app',
         'dev' => true,
     ),
@@ -25,7 +25,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5c59b822810e0606a549549eeb6b2cb073c46f59',
+            'reference' => '3794885d24828839c7010655fb4b6e57034f8878',
             'dev_requirement' => false,
         ),
         'cakephp/authentication' => array(
@@ -293,6 +293,15 @@
             'install_path' => __DIR__ . '/../dompdf/dompdf',
             'aliases' => array(),
             'reference' => '8768448244967a46d6e67b891d30878e0e15d25c',
+            'dev_requirement' => false,
+        ),
+        'friendsofcake/bootstrap-ui' => array(
+            'pretty_version' => '3.1.1',
+            'version' => '3.1.1.0',
+            'type' => 'cakephp-plugin',
+            'install_path' => __DIR__ . '/../friendsofcake/bootstrap-ui',
+            'aliases' => array(),
+            'reference' => '7dcf72868bfab8a0ca8f68d5e291b62f0db845fa',
             'dev_requirement' => false,
         ),
         'friendsofcake/cakepdf' => array(
@@ -1057,6 +1066,15 @@
             'reference' => '75a63c33a8577608444246075ea0af0d052e452a',
             'dev_requirement' => true,
         ),
+        'twbs/bootstrap' => array(
+            'pretty_version' => 'v5.1.3',
+            'version' => '5.1.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twbs/bootstrap',
+            'aliases' => array(),
+            'reference' => '1a6fdfae6be09b09eaced8f0e442ca6f7680a61e',
+            'dev_requirement' => false,
+        ),
         'twig/markdown-extra' => array(
             'pretty_version' => 'v3.3.1',
             'version' => '3.3.1.0',
@@ -1074,6 +1092,12 @@
             'aliases' => array(),
             'reference' => '21578f00e83d4a82ecfa3d50752b609f13de6790',
             'dev_requirement' => true,
+        ),
+        'twitter/bootstrap' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'v5.1.3',
+            ),
         ),
         'webmozart/assert' => array(
             'pretty_version' => '1.10.0',

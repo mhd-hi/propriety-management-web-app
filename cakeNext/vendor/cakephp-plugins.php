@@ -6,6 +6,7 @@ return [
         'Authentication' => $baseDir . '/vendor/cakephp/authentication/',
         'Authorization' => $baseDir . '/vendor/cakephp/authorization/',
         'Bake' => $baseDir . '/vendor/cakephp/bake/',
+        'BootstrapUI' => $baseDir . '/vendor/friendsofcake/bootstrap-ui/',
         'CakePdf' => $baseDir . '/vendor/friendsofcake/cakepdf/',
         'Cake/TwigView' => $baseDir . '/vendor/cakephp/twig-view/',
         'DebugKit' => $baseDir . '/vendor/cakephp/debug_kit/',
