@@ -1,25 +1,31 @@
 var app = angular.module('app', []);
 
 app.controller('ProvinceCRUDCtrl', ['$scope', 'ProvinceCRUDService', function ($scope, ProvinceCRUDService) {
+        
+        $scope.updateProvince = function (province) {
 
-        $scope.updateProvince = function () {
-            ProvinceCRUDService.updateProvince($scope.province.id, $scope.province.name, $scope.province.code)
+            console.log("index.js/app.controller/updateProvince");
+            ProvinceCRUDService.updateProvince(province)
                     .then(function success(response) {
+                        
                         $scope.message = 'Province data updated!';
                         $scope.errorMessage = '';
+                        //Refresh la liste
+                        $scope.getAllProvinces();
                     },
                             function error(response) {
                                 $scope.errorMessage = 'Error updating province!';
+                                
                                 $scope.message = '';
                             });
         }
 
-        $scope.getProvince = function () {
-            var id = $scope.province.id;
-            ProvinceCRUDService.getProvince($scope.province.id)
+        $scope.getProvince = function (id) {
+//            var id = $scope.province.id;
+            ProvinceCRUDService.getProvince(id)
                     .then(function success(response) {
                         $scope.province = response.data.province;
-//                        $scope.province.id = id;
+                        $scope.province.id = id;
                         $scope.message = '';
                         $scope.errorMessage = '';
                     },
@@ -39,6 +45,9 @@ app.controller('ProvinceCRUDCtrl', ['$scope', 'ProvinceCRUDService', function ($
                         .then(function success(response) {
                             $scope.message = 'Province added!';
                             $scope.errorMessage = '';
+
+                            //Refresh la liste
+                            $scope.getAllProvinces();
                         },
                                 function error(response) {
                                     $scope.errorMessage = 'Error adding province!';
@@ -56,6 +65,8 @@ app.controller('ProvinceCRUDCtrl', ['$scope', 'ProvinceCRUDService', function ($
                         $scope.message = 'Province deleted!';
                         $scope.province = null;
                         $scope.errorMessage = '';
+                        //Refresh la liste
+                        $scope.getAllProvinces();
                     },
                             function error(response) {
                                 $scope.errorMessage = 'Error deleting province!';
@@ -108,11 +119,12 @@ app.service('ProvinceCRUDService', ['$http', function ($http) {
             })
         }
 
-        this.updateProvince = function updateProvince(id, name, code) {
+        this.updateProvince = function updateProvince(province) {
+            console.log(province);
             return $http({
                 method: 'PATCH',
-                url: urlToRestApi + '/' + id,
-                data: {name: name, code: code},
+                url: urlToRestApi + '/' + province.id,
+                data: {name: province.name, code: province.code},
                 headers: { 'X-Requested-With' : 'XMLHttpRequest',
                     'Accept' : 'application/json'}
             })

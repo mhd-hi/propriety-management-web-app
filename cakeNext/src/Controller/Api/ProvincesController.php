@@ -19,6 +19,7 @@ class ProvincesController extends AppController {
         $provinces = $this->Provinces->find('all')->all();
         $this->set('provinces', $provinces);
         $this->viewBuilder()->setOption('serialize', ['provinces']);
+        
     }
 
 
@@ -69,6 +70,7 @@ class ProvincesController extends AppController {
         }
         $this->set('message', $message);
         $this->viewBuilder()->setOption('serialize', ['message']);
+        
     }
 
 }
