@@ -57,6 +57,7 @@ class ComposerStaticInitd61be99e836a1014b99a9bf5dc1b1172
         ),
         'W' => 
         array (
+            'Wirecore\\CakePHP_JWT\\' => 21,
             'Webmozart\\Assert\\' => 17,
         ),
         'T' => 
@@ -125,6 +126,7 @@ class ComposerStaticInitd61be99e836a1014b99a9bf5dc1b1172
         'F' => 
         array (
             'FontLib\\' => 8,
+            'Firebase\\JWT\\' => 13,
         ),
         'D' => 
         array (
@@ -176,6 +178,10 @@ class ComposerStaticInitd61be99e836a1014b99a9bf5dc1b1172
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'Wirecore\\CakePHP_JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wirecore/cakephp_jwt/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -354,6 +360,10 @@ class ComposerStaticInitd61be99e836a1014b99a9bf5dc1b1172
         'FontLib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib',
+        ),
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
         'Dompdf\\' => 
         array (

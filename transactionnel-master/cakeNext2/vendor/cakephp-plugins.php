@@ -11,5 +11,6 @@ return [
         'Cake/TwigView' => $baseDir . '/vendor/cakephp/twig-view/',
         'DebugKit' => $baseDir . '/vendor/cakephp/debug_kit/',
         'Migrations' => $baseDir . '/vendor/cakephp/migrations/',
+        'Wirecore/CakePHP_JWT' => $baseDir . '/vendor/wirecore/cakephp_jwt/',
     ],
 ];

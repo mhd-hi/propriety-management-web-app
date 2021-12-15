@@ -9,7 +9,7 @@ class ProvincesController extends AppController {
 
     public function initialize(): void {
         parent::initialize();
-        $this->loadComponent('RequestHandler');
+        $this->Jwt->allowUnauthenticated(['index']); //, 'view'
         $this->Authorization->skipAuthorization();
     }
 

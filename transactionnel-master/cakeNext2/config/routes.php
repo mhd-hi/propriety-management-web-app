@@ -75,12 +75,30 @@ $routes->scope('/', function (RouteBuilder $builder) {
     $builder->fallbacks();
 });
 
+
 $routes->prefix('api', function (RouteBuilder $builder) {
-    //    $routes->setExtensions(['json']);
-        $builder->resources('Provinces');
-        $builder->fallbacks();
+//    $routes->setExtensions(['json']);
+    $builder->resources('Provinces');
+    $builder->resources('Users', [
+    'map' => [
+        'token' => [
+            'action' => 'token',
+            'method' => 'POST'
+        ]
+    ]
+]);
+    $builder->fallbacks();
 });
 
+$routes->resources('Users', [
+    'prefix' => 'Api',
+    'map' => [
+        'token' => [
+            'action' => 'token',
+            'method' => 'POST'
+        ]
+    ]
+]); 
 
 $routes->prefix('Admin', function (RouteBuilder $builder) {
     // All routes here will be prefixed with `/admin`, and

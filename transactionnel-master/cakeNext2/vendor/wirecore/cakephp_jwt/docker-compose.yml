@@ -1,0 +1,73 @@
+version: '3'
+
+services:
+    # DB
+    cakephp-jwt-mysql:
+        image: mariadb:10.5.9
+        container_name: cakephp-jwt-mysql
+        volumes:
+            - ./db-data/db:/var/lib/mysql
+        ports:
+            - "8106:3306"
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=cakephp_jwt
+            - MYSQL_USER=username
+            - MYSQL_PASSWORD=password
+    # PhpMyAdmin for Normal DB
+    cakephp-jwt-phpmyadmin:
+        depends_on:
+            - cakephp-jwt-mysql
+            - cakephp-jwt-php-fpm
+        image: phpmyadmin/phpmyadmin
+        container_name: cakephp-jwt-phpmyadmin
+        ports:
+            - "8081:80"
+        links:
+            - cakephp-jwt-mysql
+        environment:
+            - PMA_HOST=cakephp-jwt-mysql
+            - MYSQL_ROOT_PASSWORD=root
+    cakephp-jwt-mysql-test:
+        image: mariadb:10.5.9
+        container_name: cakephp-jwt-mysql-test
+        volumes:
+            - ./db-data/test-db:/var/lib/mysql
+        ports:
+            - "8107:3306"
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=cakephp_jwt
+            - MYSQL_USER=username
+            - MYSQL_PASSWORD=password
+    # Webserver
+    cakephp-jwt-nginx:
+        depends_on:
+            - cakephp-jwt-mysql
+            - cakephp-jwt-mysql-test
+            - cakephp-jwt-php-fpm
+        image: nginx:1.19.5
+        container_name: cakephp-jwt-nginx
+        volumes:
+            - cakephp-jwt-cakephp-installation:/var/www/html
+            - .:/var/www/html/plugins/Wirecore/CakePHP_JWT
+            - ./nginx.conf:/etc/nginx/conf.d/default.conf
+        ports:
+            - "8080:80"
+        links:
+            - cakephp-jwt-php-fpm
+    # PHP
+    cakephp-jwt-php-fpm:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        container_name: cakephp-jwt-php-fpm
+        volumes:
+            - cakephp-jwt-cakephp-installation:/var/www/html
+            - .:/var/www/html/plugins/Wirecore/CakePHP_JWT
+        links:
+            - cakephp-jwt-mysql
+            - cakephp-jwt-mysql-test
+
+volumes:
+    cakephp-jwt-cakephp-installation:

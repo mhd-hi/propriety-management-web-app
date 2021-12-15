@@ -63,6 +63,8 @@ class Application extends BaseApplication implements
     {
         $this->addPlugin('BootstrapUI');
 
+        $this->addPlugin('Wirecore/CakePHP_JWT');
+
         $this->addPlugin('CakePdf');
 
         // Call parent to load bootstrap from files.
@@ -190,7 +192,8 @@ class Application extends BaseApplication implements
                 'username' => 'email',
                 'password' => 'password',
             ],
-            'loginUrl' => Router::url('/users/login'),
+            'loginUrl' => Router::url('/api/users/token'), //todo
+            //'loginUrl' => Router::url('/users/login'),
         ]);
 
         return $authenticationService;

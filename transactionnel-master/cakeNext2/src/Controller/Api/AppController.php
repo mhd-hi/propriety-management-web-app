@@ -40,15 +40,17 @@ class AppController extends Controller {
      */
     public function initialize(): void {
         parent::initialize();
+        $this->loadComponent('RequestHandler');
         $this->loadComponent('Authentication.Authentication');
         $this->loadComponent('Authorization.Authorization');
+        $this->loadComponent("Wirecore/CakePHP_JWT.Jwt");
     }
 
     public function beforeFilter(\Cake\Event\EventInterface $event) {
         parent::beforeFilter($event);
         // for all controllers in our application, make index and view
         // actions public, skipping the authentication check
-        $this->Authentication->addUnauthenticatedActions(['index', 'view', 'add', 'edit', 'delete']);
+        $this->Authentication->addUnauthenticatedActions(['index', 'view', 'token','add']);
     }
 
 }
